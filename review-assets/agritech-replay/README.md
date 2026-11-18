@@ -1,0 +1,5 @@
+# Agritech state replay browser evidence
+
+Source `d68e0be79cdc5e365fbdbcbaae7721fa04a3c7ea`. Images show the real Vite production preview with explicit synthetic sensor data; no farm equipment is connected. These images live on a separate fork-only evidence branch and are excluded from the four-file source PR.
+
+15Node cases passed: defensive cloning, navigation, structural JSON Pointer diffs, export/import fidelity, atomic bad-import recovery, plain-JSON/accessor/prototype guards and resource limits. Root lint/build passed with no new-file findings (92 warnings elsewhere). Real Chromium dev+production checks passed recording/timeline/history keyboard focus, dirty draft cancellation, decoded replay export and import, malformed JSON/UTF8/oversized file recovery, clear/replace confirmation, inert HTML-like text/actions,120-change pagination, replay pause/end behavior, byte limits and cancelled-refresh data preservation. Layouts320/375/430/850/1360had no page overflow. No page errors, failed resources or third-party requests.
