@@ -1,0 +1,178 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "port": 5269,
+      "noAutoplay": true,
+      "nativeKeyboard": true,
+      "realFloatAudioSignal": true,
+      "silenceVerified": true,
+      "pauseFreezesClock": true,
+      "resumeReusesSixSources": true,
+      "mutedResumeFirst4096Frames": {
+        "rms": 0,
+        "peak": 0,
+        "frames": 4096
+      },
+      "realSpectrum": true,
+      "settingsDownload": true,
+      "downloadRecovery": true,
+      "pagehideClosesOwnedContext": true,
+      "reloadDoesNotRestart": true,
+      "layouts": [
+        320,
+        375,
+        430,
+        850,
+        1360
+      ],
+      "reducedMotion": false,
+      "sourceBytes": true
+    },
+    {
+      "port": 5270,
+      "noAutoplay": true,
+      "nativeKeyboard": true,
+      "realFloatAudioSignal": true,
+      "silenceVerified": true,
+      "pauseFreezesClock": true,
+      "resumeReusesSixSources": true,
+      "mutedResumeFirst4096Frames": {
+        "rms": 0,
+        "peak": 0,
+        "frames": 4096
+      },
+      "realSpectrum": true,
+      "settingsDownload": true,
+      "downloadRecovery": true,
+      "pagehideClosesOwnedContext": true,
+      "reloadDoesNotRestart": true,
+      "layouts": [
+        320,
+        375,
+        430,
+        850,
+        1360
+      ],
+      "reducedMotion": true,
+      "sourceBytes": true
+    },
+    {
+      "port": 5269,
+      "noAutoplay": true,
+      "nativeKeyboard": true,
+      "realFloatAudioSignal": true,
+      "silenceVerified": true,
+      "pauseFreezesClock": true,
+      "resumeReusesSixSources": true,
+      "mutedResumeFirst4096Frames": {
+        "rms": 0,
+        "peak": 0,
+        "frames": 4096
+      },
+      "realSpectrum": true,
+      "settingsDownload": true,
+      "downloadRecovery": true,
+      "pagehideClosesOwnedContext": true,
+      "reloadDoesNotRestart": true,
+      "layouts": [
+        320,
+        375,
+        430,
+        850,
+        1360
+      ],
+      "reducedMotion": false,
+      "sourceBytes": true
+    },
+    {
+      "port": 5270,
+      "noAutoplay": true,
+      "nativeKeyboard": true,
+      "realFloatAudioSignal": true,
+      "silenceVerified": true,
+      "pauseFreezesClock": true,
+      "resumeReusesSixSources": true,
+      "mutedResumeFirst4096Frames": {
+        "rms": 0,
+        "peak": 0,
+        "frames": 4096
+      },
+      "realSpectrum": true,
+      "settingsDownload": true,
+      "downloadRecovery": true,
+      "pagehideClosesOwnedContext": true,
+      "reloadDoesNotRestart": true,
+      "layouts": [
+        320,
+        375,
+        430,
+        850,
+        1360
+      ],
+      "reducedMotion": true,
+      "sourceBytes": true
+    },
+    {
+      "port": 5269,
+      "noAutoplay": true,
+      "nativeKeyboard": true,
+      "realFloatAudioSignal": true,
+      "silenceVerified": true,
+      "pauseFreezesClock": true,
+      "resumeReusesSixSources": true,
+      "mutedResumeFirst4096Frames": {
+        "rms": 0,
+        "peak": 0,
+        "frames": 4096
+      },
+      "realSpectrum": true,
+      "settingsDownload": true,
+      "downloadRecovery": true,
+      "pagehideClosesOwnedContext": true,
+      "reloadDoesNotRestart": true,
+      "layouts": [
+        320,
+        375,
+        430,
+        850,
+        1360
+      ],
+      "reducedMotion": false,
+      "sourceBytes": true
+    },
+    {
+      "port": 5270,
+      "noAutoplay": true,
+      "nativeKeyboard": true,
+      "realFloatAudioSignal": true,
+      "silenceVerified": true,
+      "pauseFreezesClock": true,
+      "resumeReusesSixSources": true,
+      "mutedResumeFirst4096Frames": {
+        "rms": 0,
+        "peak": 0,
+        "frames": 4096
+      },
+      "realSpectrum": true,
+      "settingsDownload": true,
+      "downloadRecovery": true,
+      "pagehideClosesOwnedContext": true,
+      "reloadDoesNotRestart": true,
+      "layouts": [
+        320,
+        375,
+        430,
+        850,
+        1360
+      ],
+      "reducedMotion": true,
+      "sourceBytes": true
+    }
+  ],
+  "resumeFailureRecovery": true,
+  "unsupportedAudioRecovery": true,
+  "errors": [],
+  "failures": [],
+  "external": []
+}
