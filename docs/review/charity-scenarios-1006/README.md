@@ -1,0 +1,13 @@
+# Microloan portfolio scenario evidence
+
+Source `f9a12f5e7ef4335f283eaf23dce1245dd150551b`, based on upstream `d999ac78be7e3213180af64f24e66eca377945ed`. Issue #1006 was confirmed assigned before coding. Exactly four dedicated simulation-sandbox files change; no shared files, dependencies, configs or workflows change.
+
+The model is explicitly hypothetical. Each portfolio scenario has an optional shared Gaussian probability shock, clips the resulting default probability to0–100%, and draws conditional independent loan defaults. Each default loses the unrecovered principal rounded to integer paise. Interest, fees, late payments and other borrower relationships are excluded. The displayed95% loss outcome range and Wilson sampling interval for the exceedance probability are different quantities. Neither is a calibrated borrower forecast or investment recommendation. A zero-shock binomial reference is shown with its scope stated.
+
+Twelve Node24 tests pass:100,000 standard-normal moments/tail samples,50,000 zero-shock portfolios compared against independent binomial moments and the full count PMF,156 independent score-equation interval inversions, exact zero/full default and full recovery, paisa rounding, strict exceedance boundary, known quantiles, seed repeatability, histogram conservation, immutable completed results, invalid inputs, atomic cancellation/retry and superseded-run protection.
+
+Normal Node24 production build passes. Root lint has exactly the same94 finding counter as clean upstream d999ac78; zero additions.
+
+Actual development and production Chromium flows pass. The default1,000-scenario run renders real visible SVG bars and a reconciled table. The maximum50,000-scenario/500-loan run completed in about4.2seconds on this test host, while502–503 UI frames advanced and the maximum observed frame gap was25ms; these are observations, not a hardware-independent guarantee. Native sliders/keyboard controls, invalid-seed validation, cancel preserving old results, synthetic scheduling failure preserving results/focusing the error, retry, exact13534-paise full-default outcomes and zero-default/full-recovery cases pass. Disclosure/table keyboard focus, reduced motion,320–1360px containment, served source identity, zero storage API calls, page errors, failed resources and external requests all pass.
+
+The primary desktop and mobile screenshots show the same default1,000-scenario fixture, not the later maximum-size stress case. All inputs are synthetic and memory-only. Hosted CI/review/merge and official point credit are separate states recorded in the PR and ledger. Artifacts remain on this fork-only branch outside the source diff.
