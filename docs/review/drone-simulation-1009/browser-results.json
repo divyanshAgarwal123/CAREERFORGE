@@ -1,0 +1,60 @@
+[
+  {
+    "port": 5269,
+    "errors": [],
+    "failed": [],
+    "external": [],
+    "defaultMean": 29.96,
+    "defaultDeviation": 6.06,
+    "defaultLatePercent": 4.4,
+    "defaultTrials": 1000,
+    "maximumTrials": 50000,
+    "frameCount": 123,
+    "maxFrameGapMs": 10.299999999999955,
+    "visibleHistogramGeometry": true,
+    "headerGraphicPreserved": true,
+    "nativeZeroVariationExact": true,
+    "histogramAndCountTable": true,
+    "atomicCancelAndRetry": true,
+    "nativeInputValidation": true,
+    "reducedMotion": true,
+    "focusReturn": true,
+    "sourceIdentity": true,
+    "widths": [
+      320,
+      375,
+      430,
+      850,
+      1360
+    ]
+  },
+  {
+    "port": 5270,
+    "errors": [],
+    "failed": [],
+    "external": [],
+    "defaultMean": 29.96,
+    "defaultDeviation": 6.06,
+    "defaultLatePercent": 4.4,
+    "defaultTrials": 1000,
+    "maximumTrials": 50000,
+    "frameCount": 123,
+    "maxFrameGapMs": 10.300000000000068,
+    "visibleHistogramGeometry": true,
+    "headerGraphicPreserved": true,
+    "nativeZeroVariationExact": true,
+    "histogramAndCountTable": true,
+    "atomicCancelAndRetry": true,
+    "nativeInputValidation": true,
+    "reducedMotion": true,
+    "focusReturn": true,
+    "sourceIdentity": true,
+    "widths": [
+      320,
+      375,
+      430,
+      850,
+      1360
+    ]
+  }
+]
