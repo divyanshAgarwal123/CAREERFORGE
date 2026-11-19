@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "state": "paused",
+  "activeMs": 295,
+  "clicks": 4,
+  "acceptedEvents": 17,
+  "maximumScrollPercent": 100,
+  "targets": {
+    "route": 1,
+    "weather": 1,
+    "dispatch": 1,
+    "surface": 1
+  },
+  "heatmap": {
+    "columns": 8,
+    "rows": 6,
+    "cells": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "events": [
+    {
+      "atMs": 35,
+      "type": "click",
+      "target": "route",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "atMs": 54,
+      "type": "click",
+      "target": "weather",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "atMs": 59,
+      "type": "click",
+      "target": "dispatch",
+      "cell": null
+    },
+    {
+      "atMs": 64,
+      "type": "click",
+      "target": "surface",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "atMs": 119,
+      "type": "scroll",
+      "depth": 5
+    },
+    {
+      "atMs": 133,
+      "type": "scroll",
+      "depth": 10
+    },
+    {
+      "atMs": 136,
+      "type": "scroll",
+      "depth": 15
+    },
+    {
+      "atMs": 151,
+      "type": "scroll",
+      "depth": 20
+    },
+    {
+      "atMs": 157,
+      "type": "scroll",
+      "depth": 30
+    },
+    {
+      "atMs": 164,
+      "type": "scroll",
+      "depth": 40
+    },
+    {
+      "atMs": 175,
+      "type": "scroll",
+      "depth": 50
+    },
+    {
+      "atMs": 185,
+      "type": "scroll",
+      "depth": 55
+    },
+    {
+      "atMs": 196,
+      "type": "scroll",
+      "depth": 65
+    },
+    {
+      "atMs": 205,
+      "type": "scroll",
+      "depth": 80
+    },
+    {
+      "atMs": 214,
+      "type": "scroll",
+      "depth": 90
+    },
+    {
+      "atMs": 235,
+      "type": "scroll",
+      "depth": 95
+    },
+    {
+      "atMs": 253,
+      "type": "scroll",
+      "depth": 100
+    }
+  ]
+}

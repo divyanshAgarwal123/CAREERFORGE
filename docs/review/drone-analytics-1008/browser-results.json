@@ -1,0 +1,58 @@
+[
+  {
+    "port": 5269,
+    "errors": [],
+    "failed": [],
+    "external": [],
+    "optIn": true,
+    "pointerClicks": 3,
+    "keyboardClicksWithoutCells": 1,
+    "maxDepth": 100,
+    "stableScrollGeometry": true,
+    "keyboardTraceScroll": true,
+    "pauseClockStable": true,
+    "excludedNoteAndUnknownTarget": true,
+    "nativeJsonReportBytes": 2186,
+    "exactRetry": true,
+    "clearConfirmBothPaths": true,
+    "noStorageApiCalls": true,
+    "sentinelsPreserved": true,
+    "reducedMotion": true,
+    "sourceIdentity": true,
+    "widths": [
+      320,
+      375,
+      430,
+      850,
+      1360
+    ]
+  },
+  {
+    "port": 5270,
+    "errors": [],
+    "failed": [],
+    "external": [],
+    "optIn": true,
+    "pointerClicks": 3,
+    "keyboardClicksWithoutCells": 1,
+    "maxDepth": 100,
+    "stableScrollGeometry": true,
+    "keyboardTraceScroll": true,
+    "pauseClockStable": true,
+    "excludedNoteAndUnknownTarget": true,
+    "nativeJsonReportBytes": 2186,
+    "exactRetry": true,
+    "clearConfirmBothPaths": true,
+    "noStorageApiCalls": true,
+    "sentinelsPreserved": true,
+    "reducedMotion": true,
+    "sourceIdentity": true,
+    "widths": [
+      320,
+      375,
+      430,
+      850,
+      1360
+    ]
+  }
+]
