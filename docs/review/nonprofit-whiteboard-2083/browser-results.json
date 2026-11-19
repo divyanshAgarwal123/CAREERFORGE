@@ -1,0 +1,139 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "port": 5269,
+      "nativePointerTools": true,
+      "canvasPixels": true,
+      "eraserOrderAndUndoRedo": true,
+      "decodedSvg": {
+        "width": 1000,
+        "height": 625,
+        "parseErrors": 0,
+        "scripts": 0,
+        "oldInk": [
+          187,
+          105,
+          73,
+          255
+        ],
+        "newInk": [
+          42,
+          105,
+          134,
+          255
+        ],
+        "erased": [
+          243,
+          240,
+          232,
+          255
+        ],
+        "line": [
+          34,
+          78,
+          63,
+          255
+        ],
+        "rectangle": [
+          187,
+          105,
+          73,
+          255
+        ],
+        "interior": [
+          243,
+          240,
+          232,
+          255
+        ],
+        "masks": 1
+      },
+      "nativeExportAndRetry": true,
+      "pointerCaptureCancellation": true,
+      "keyboardDrawing": true,
+      "keyboardFocus": true,
+      "clearConfirmAndDismiss": true,
+      "historyLimit": true,
+      "nativeTouchAndCancel": true,
+      "touchDoesNotScroll": true,
+      "layouts": [
+        320,
+        375,
+        430,
+        850,
+        1360
+      ],
+      "sourceBytes": true
+    },
+    {
+      "port": 5270,
+      "nativePointerTools": true,
+      "canvasPixels": true,
+      "eraserOrderAndUndoRedo": true,
+      "decodedSvg": {
+        "width": 1000,
+        "height": 625,
+        "parseErrors": 0,
+        "scripts": 0,
+        "oldInk": [
+          187,
+          105,
+          73,
+          255
+        ],
+        "newInk": [
+          42,
+          105,
+          134,
+          255
+        ],
+        "erased": [
+          243,
+          240,
+          232,
+          255
+        ],
+        "line": [
+          34,
+          78,
+          63,
+          255
+        ],
+        "rectangle": [
+          187,
+          105,
+          73,
+          255
+        ],
+        "interior": [
+          243,
+          240,
+          232,
+          255
+        ],
+        "masks": 1
+      },
+      "nativeExportAndRetry": true,
+      "pointerCaptureCancellation": true,
+      "keyboardDrawing": true,
+      "keyboardFocus": true,
+      "clearConfirmAndDismiss": true,
+      "historyLimit": true,
+      "nativeTouchAndCancel": true,
+      "touchDoesNotScroll": true,
+      "layouts": [
+        320,
+        375,
+        430,
+        850,
+        1360
+      ],
+      "sourceBytes": true
+    }
+  ],
+  "unsupportedCanvas": true,
+  "errors": [],
+  "failures": [],
+  "external": []
+}
