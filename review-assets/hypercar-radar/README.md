@@ -1,0 +1,1 @@
+Synthetic normalized score data from the production preview for issue1085. Source c389efe0dc173bb018ae35bdd7d204b0121dcb0c. These browser screenshots were visually reviewed and live on a fork-only evidence branch; no evidence PR.
