@@ -1,0 +1,11 @@
+{
+  "kind": "geo",
+  "base": "http://127.0.0.1:5396",
+  "checks": [
+    "native keyboard blip, list selection, dateline short-arc radar, invalid origin retains data, polar heading undefined, pause and reduced motion",
+    "desktop and 320/390/760px layout, zero page errors or failed resources"
+  ],
+  "errors": [],
+  "failed": [],
+  "passed": true
+}
