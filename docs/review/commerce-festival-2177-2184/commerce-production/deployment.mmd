@@ -1,0 +1,12 @@
+stateDiagram-v2
+  state "Cart" as s0
+  state "Checkout" as s1
+  state "PaymentPending" as s2
+  state "Paid" as s3
+  [*] --> s0
+  s0 --> s1 : Begin checkout
+  s1 --> s2 : Review payment
+  s2 --> s1 : Change cart
+  s2 --> s3 : Complete payment #91;payment confirmed#93;
+  s3 --> s0 : New order
+  s0 --> s0 : Retry
