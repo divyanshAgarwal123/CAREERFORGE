@@ -1,0 +1,11 @@
+{
+  "kind": "fsm",
+  "base": "http://127.0.0.1:5385",
+  "checks": [
+    "native invalid event, guarded promotion/retry, keyboard focus retention, cycle, custom self loop, duplicate guard and downloaded Mermaid",
+    "desktop and 320/390/760px layout, zero page errors or failed resources"
+  ],
+  "errors": [],
+  "failed": [],
+  "passed": true
+}

@@ -1,0 +1,96 @@
+
+> carrers-frontend@0.0.0 lint
+> oxlint
+
+public/showcase/developer-portfolio/offline-sync.test.mjs:53:49: warning eslint(no-unused-vars): Parameter 'item' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/ecommerce-store/event-notifier.js:109:17: warning eslint(no-unused-vars): Variable 'id' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/fintech-vault/debt-planner.js:4:5: warning eslint(no-unused-vars): Variable 'DebtPlanner' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/supply-chain-logistics/widget-embed.js:53:18: warning eslint(no-unused-vars): Catch parameter '_err' is caught but never used. help: Consider handling this error.
+public/showcase/ecommerce-store/offline-sync.js:89:46: warning eslint(no-unused-vars): Parameter 'op' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/health-vitality/offline-sync.js:108:44: warning eslint(no-unused-vars): Parameter 'item' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/ecommerce-store/notification-hub.js:98:17: warning eslint(no-unused-vars): Variable 'id' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/fintech-vault/offline-sync.test.mjs:53:49: warning eslint(no-unused-vars): Parameter 'item' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/real-estate-luxe/offline-sync.test.mjs:53:49: warning eslint(no-unused-vars): Parameter 'item' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/supply-chain-logistics/event-notifier.js:111:17: warning eslint(no-unused-vars): Variable 'id' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/supply-chain-logistics/benchmark-suite.js:44:11: warning eslint(no-unused-vars): Variable 'lat' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/supply-chain-logistics/benchmark-suite.js:44:26: warning eslint(no-unused-vars): Variable 'lon' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/saas-launchpad/offline-sync.js:89:46: warning eslint(no-unused-vars): Parameter 'op' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/developer-portfolio/offline-sync.js:106:44: warning eslint(no-unused-vars): Parameter 'item' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/defi-yield-matrix/widget-embed.js:53:18: warning eslint(no-unused-vars): Catch parameter '_err' is caught but never used. help: Consider handling this error.
+public/showcase/podcast-audio-stream/event-notifier.js:109:17: warning eslint(no-unused-vars): Variable 'id' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/automotive-hypercar/export-engine.js:201:40: warning eslint(no-useless-escape): Unnecessary escape character '.' help: Replace `\.` with `.`.
+public/showcase/festival-hub/meetup-validation.test.mjs:57:99: warning eslint(no-loss-of-precision): This number literal will lose precision at runtime. help: Use a number literal representable by a 64-bit floating-point number, or use a `BigInt` literal (for example, `9007199254740993n`) for exact large integers.
+public/showcase/health-vitality/offline-sync.test.mjs:53:49: warning eslint(no-unused-vars): Parameter 'item' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/music-daw-studio/offline-sync.js:165:45: warning eslint(no-unused-vars): Parameter 'item' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/defi-yield-matrix/export-receipt.test.mjs:51:22: warning eslint(no-unused-vars): Parameter 'w' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/defi-yield-matrix/export-receipt.test.mjs:51:25: warning eslint(no-unused-vars): Parameter 'h' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/defi-yield-matrix/export-receipt.test.mjs:52:24: warning eslint(no-unused-vars): Parameter 'w' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/defi-yield-matrix/export-receipt.test.mjs:52:27: warning eslint(no-unused-vars): Parameter 'h' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/defi-yield-matrix/export-receipt.test.mjs:53:22: warning eslint(no-unused-vars): Parameter 'x' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/defi-yield-matrix/export-receipt.test.mjs:53:25: warning eslint(no-unused-vars): Parameter 'y' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/robotics-automata/widget-embed.js:53:18: warning eslint(no-unused-vars): Catch parameter '_err' is caught but never used. help: Consider handling this error.
+src/components/ui/button.tsx:57:18: warning react(only-export-components): Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components.
+public/showcase/podcast-audio-stream/script.js:121:10: warning eslint(no-unused-vars): Catch parameter 'e' is caught but never used. help: Consider handling this error.
+public/showcase/podcast-audio-stream/script.js:144:94: warning eslint(no-unused-vars): Catch parameter 'e' is caught but never used. help: Consider handling this error.
+public/showcase/podcast-audio-stream/script.js:260:12: warning eslint(no-unused-vars): Catch parameter 'e' is caught but never used. help: Consider handling this error.
+public/showcase/podcast-audio-stream/script.js:266:71: warning eslint(no-unused-vars): Catch parameter 'e' is caught but never used. help: Consider handling this error.
+public/showcase/podcast-audio-stream/script.js:443:10: warning eslint(no-unused-vars): Function 'updateKaraokeProgress' is declared but never used. help: Consider removing this declaration.
+public/showcase/podcast-audio-stream/script.js:1135:112: warning eslint(no-unused-vars): Catch parameter 'e' is caught but never used. help: Consider handling this error.
+public/showcase/podcast-audio-stream/script.js:1140:56: warning eslint(no-unused-vars): Catch parameter 'e' is caught but never used. help: Consider handling this error.
+public/showcase/podcast-audio-stream/script.js:1147:14: warning eslint(no-unused-vars): Catch parameter 'e' is caught but never used. help: Consider handling this error.
+public/showcase/defi-yield-matrix/mock-websocket.test.mjs:11:9: warning eslint(no-unused-vars): Variable 'unsubB' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/defi-yield-matrix/gamified-quest.js:133:11: warning eslint(no-unused-vars): Variable 'delta' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/defi-yield-matrix/benchmark-suite.js:46:11: warning eslint(no-unused-vars): Variable 'k' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/podcast-audio-stream/player-logic.js:36:14: warning eslint(no-unused-vars): Catch parameter 'e' is caught but never used. help: Consider handling this error.
+public/showcase/podcast-audio-stream/player-logic.js:52:44: warning eslint(no-unused-vars): Catch parameter 'e' is caught but never used. help: Consider handling this error.
+public/showcase/fintech-vault/offline-sync.js:106:44: warning eslint(no-unused-vars): Parameter 'item' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/defi-yield-matrix/markdown-editor.js:98:23: warning eslint(no-useless-escape): Unnecessary escape character '>' help: Replace `\>` with `>`.
+public/showcase/festival-hub/telemetry-visualizer.js:270:13: warning eslint(no-unused-vars): Variable 'rect' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/real-estate-luxe/offline-sync.js:106:44: warning eslint(no-unused-vars): Parameter 'item' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/ai-voice-studio/script.js:1949:16: warning eslint(no-unused-vars): Catch parameter 'err' is caught but never used. help: Consider handling this error.
+public/showcase/ai-voice-studio/script.js:1993:39: warning eslint(no-unused-vars): Catch parameter 'err' is caught but never used. help: Consider handling this error.
+public/showcase/ai-voice-studio/script.js:2013:43: warning eslint(no-unused-vars): Catch parameter 'err' is caught but never used. help: Consider handling this error.
+public/showcase/ai-voice-studio/export-engine.js:196:40: warning eslint(no-useless-escape): Unnecessary escape character '.' help: Replace `\.` with `.`.
+public/showcase/quantum-forge/simulation-sandbox.js:117:11: warning eslint(no-unused-vars): Variable 'baseSim' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/quantum-forge/simulation-sandbox.js:124:11: warning eslint(no-unused-vars): Variable 'noisySim' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/quantum-forge/simulation-sandbox.js:131:11: warning eslint(no-unused-vars): Variable 'shieldedSim' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/nonprofit-impact/event-notifier.js:109:17: warning eslint(no-unused-vars): Variable 'id' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/smart-iot-nexus/markdown-editor.js:98:23: warning eslint(no-useless-escape): Unnecessary escape character '>' help: Replace `\>` with `>`.
+public/showcase/smart-iot-nexus/export-receipt.test.mjs:50:22: warning eslint(no-unused-vars): Parameter 'w' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/smart-iot-nexus/export-receipt.test.mjs:50:25: warning eslint(no-unused-vars): Parameter 'h' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/smart-iot-nexus/export-receipt.test.mjs:51:24: warning eslint(no-unused-vars): Parameter 'w' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/smart-iot-nexus/export-receipt.test.mjs:51:27: warning eslint(no-unused-vars): Parameter 'h' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/smart-iot-nexus/export-receipt.test.mjs:52:22: warning eslint(no-unused-vars): Parameter 'x' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/smart-iot-nexus/export-receipt.test.mjs:52:25: warning eslint(no-unused-vars): Parameter 'y' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/biotech-genomics/event-notifier.js:106:17: warning eslint(no-unused-vars): Variable 'id' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/ai-voice-studio/export-options.js:59:14: warning eslint(no-unused-vars): Catch parameter 'err' is caught but never used. help: Consider handling this error.
+public/showcase/smart-iot-nexus/event-notifier.js:106:17: warning eslint(no-unused-vars): Variable 'id' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/smart-iot-nexus/mock-websocket.test.mjs:11:9: warning eslint(no-unused-vars): Variable 'unsubB' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/smart-iot-nexus/widget-embed.js:53:18: warning eslint(no-unused-vars): Catch parameter '_err' is caught but never used. help: Consider handling this error.
+scripts/build-batch9.mjs:53:11: warning eslint(no-unused-vars): Parameter 'p' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+scripts/build-batch9.mjs:55:12: warning eslint(no-unused-vars): Parameter 'p' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+scripts/build-batch9.mjs:60:12: warning eslint(no-unused-vars): Parameter 'p' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+scripts/build-batch9.mjs:61:11: warning eslint(no-unused-vars): Parameter 'p' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+scripts/build-batch9.mjs:63:12: warning eslint(no-unused-vars): Parameter 'p' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+scripts/build-batch9.mjs:69:11: warning eslint(no-unused-vars): Parameter 'p' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+scripts/build-batch9.mjs:71:12: warning eslint(no-unused-vars): Parameter 'p' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+scripts/build-batch9.mjs:76:12: warning eslint(no-unused-vars): Parameter 'p' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+scripts/build-batch9.mjs:77:11: warning eslint(no-unused-vars): Parameter 'p' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+scripts/build-batch9.mjs:79:12: warning eslint(no-unused-vars): Parameter 'p' is declared but never used. Unused parameters should start with a '_'. help: Consider removing this parameter.
+public/showcase/biotech-genomics/notification-hub.js:98:17: warning eslint(no-unused-vars): Variable 'id' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/crypto-exchange-pro/event-notifier.js:111:17: warning eslint(no-unused-vars): Variable 'id' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/renewable-microgrid/widget-embed.js:53:18: warning eslint(no-unused-vars): Catch parameter '_err' is caught but never used. help: Consider handling this error.
+public/showcase/smart-iot-nexus/gamified-quest.js:133:11: warning eslint(no-unused-vars): Variable 'delta' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/biotech-genomics/widget-embed.js:53:18: warning eslint(no-unused-vars): Catch parameter '_err' is caught but never used. help: Consider handling this error.
+public/showcase/vr-metaverse-hub/event-notifier.js:111:17: warning eslint(no-unused-vars): Variable 'id' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/virtual-museum-3d/widget-embed.js:53:18: warning eslint(no-unused-vars): Catch parameter '_err' is caught but never used. help: Consider handling this error.
+public/showcase/biotech-genomics/analytics-telemetry.js:27:59: warning eslint(no-useless-escape): Unnecessary escape character '-' help: Replace `\-` with `-`.
+public/showcase/agency-studio/notification-hub.js:98:17: warning eslint(no-unused-vars): Variable 'id' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/agritech-precision-farming/telemetry-visualizer.js:90:25: warning eslint(no-unused-vars): Variable 'min' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/agritech-precision-farming/telemetry-visualizer.js:90:30: warning eslint(no-unused-vars): Variable 'max' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/vr-metaverse-hub/widget-embed.js:53:18: warning eslint(no-unused-vars): Catch parameter '_err' is caught but never used. help: Consider handling this error.
+scripts/generate-leaderboard.mjs:89:14: warning eslint(no-unused-vars): Variable 'hash' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+scripts/generate-leaderboard.mjs:119:23: warning eslint(no-unused-vars): Variable 'k' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+scripts/generate-leaderboard.mjs:96:81: warning eslint(no-useless-escape): Unnecessary escape character '/' help: Replace `\/` with `/`.
+scripts/close-merged-issues.mjs:53:28: warning eslint(no-unused-vars): Variable 'email' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+public/showcase/cybersecurity-sentinel/export-engine.js:197:40: warning eslint(no-useless-escape): Unnecessary escape character '.' help: Replace `\.` with `.`.

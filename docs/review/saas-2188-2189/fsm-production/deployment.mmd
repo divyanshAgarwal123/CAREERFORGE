@@ -1,0 +1,12 @@
+stateDiagram-v2
+  state "Draft" as s0
+  state "Deploying" as s1
+  state "Verifying" as s2
+  state "Live" as s3
+  [*] --> s0
+  s0 --> s1 : Deploy
+  s1 --> s2 : Run checks
+  s2 --> s1 : Retry deploy
+  s2 --> s3 : Promote #91;checks passing#93;
+  s3 --> s0 : Roll back
+  s0 --> s0 : Retry

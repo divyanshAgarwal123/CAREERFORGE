@@ -1,0 +1,10 @@
+{
+  "heads": {
+    "2189": "00154a6c9a3edcf83036e1a353c0fd12ace49fb3",
+    "2188": "e89fa1ccceda71a4eda2e468646277b21e734772"
+  },
+  "parent": "7c9ba050ada6dcafde807523df51f4d1623f9e3d",
+  "node": "22.23.5",
+  "mermaid": "12.3.0",
+  "limits": "Illustrative browser-only model and edge sites; no provider, deployment, routing or travel-time claim."
+}

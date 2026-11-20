@@ -1,0 +1,15 @@
+{
+  "version": "12.3.0",
+  "result": [
+    {
+      "parsed": true,
+      "rendered": true,
+      "svgBytes": 25615
+    },
+    {
+      "parsed": true,
+      "rendered": true,
+      "svgBytes": 17499
+    }
+  ]
+}

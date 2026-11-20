@@ -1,0 +1,82 @@
+TAP version 13
+# Subtest: zero, quarter and half circumference agree with analytical spherical geometry
+ok 1 - zero, quarter and half circumference agree with analytical spherical geometry
+  ---
+  duration_ms: 0.805208
+  type: 'test'
+  ...
+# Subtest: London to New York uses spherical kilometres and an initial northwest bearing
+ok 2 - London to New York uses spherical kilometres and an initial northwest bearing
+  ---
+  duration_ms: 0.13775
+  type: 'test'
+  ...
+# Subtest: longitude differences take the short arc across the dateline in both directions
+ok 3 - longitude differences take the short arc across the dateline in both directions
+  ---
+  duration_ms: 0.122583
+  type: 'test'
+  ...
+# Subtest: cardinal bearings are clockwise from north with no negative zero
+ok 4 - cardinal bearings are clockwise from north with no negative zero
+  ---
+  duration_ms: 0.113416
+  type: 'test'
+  ...
+# Subtest: coincident, antipodal and polar-origin headings are explicitly undefined
+ok 5 - coincident, antipodal and polar-origin headings are explicitly undefined
+  ---
+  duration_ms: 0.069875
+  type: 'test'
+  ...
+# Subtest: near antipodes retain small arc differences rather than rounding to half circumference
+ok 6 - near antipodes retain small arc differences rather than rounding to half circumference
+  ---
+  duration_ms: 0.054125
+  type: 'test'
+  ...
+# Subtest: a nearby northward site and high-latitude dateline crossing remain finite
+ok 7 - a nearby northward site and high-latitude dateline crossing remain finite
+  ---
+  duration_ms: 0.142958
+  type: 'test'
+  ...
+# Subtest: 200 deterministic coordinate pairs agree with an independent vector oracle and symmetry
+ok 8 - 200 deterministic coordinate pairs agree with an independent vector oracle and symmetry
+  ---
+  duration_ms: 1.239708
+  type: 'test'
+  ...
+# Subtest: invalid coordinates are rejected without coercion, even with an empty site list
+ok 9 - invalid coordinates are rejected without coercion, even with an empty site list
+  ---
+  duration_ms: 0.4255
+  type: 'test'
+  ...
+# Subtest: nearest sorting is deterministic, keeps ties stable and leaves the source order intact
+ok 10 - nearest sorting is deterministic, keeps ties stable and leaves the source order intact
+  ---
+  duration_ms: 0.530542
+  type: 'test'
+  ...
+# Subtest: constructor and returned results are detached from later caller mutation
+ok 11 - constructor and returned results are detached from later caller mutation
+  ---
+  duration_ms: 0.106334
+  type: 'test'
+  ...
+# Subtest: invalid, duplicate, sparse and oversized site collections fail before use
+ok 12 - invalid, duplicate, sparse and oversized site collections fail before use
+  ---
+  duration_ms: 0.352833
+  type: 'test'
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 44.896917
