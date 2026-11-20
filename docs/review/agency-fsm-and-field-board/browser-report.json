@@ -1,0 +1,22 @@
+{
+  "checks": [
+    "FSM native events, guard reject/approve, keyboard dispatch/focus, custom self-loop and duplicate rejection",
+    "FSM real Mermaid download exactly matches visible definition; cycle/self-loop, reset and fresh reload",
+    "Board real mouse pen/line/rectangle, color/width controls, segment-interior erase and undo/redo",
+    "Board native keyboard draw/cancel, decoded real SVG pixels/colors, resize export identity, clear undo and reload",
+    "Mobile 390px actual CDP touch draw/cancel and FSM tap; neither page has horizontal overflow"
+  ],
+  "errors": [],
+  "sources": {
+    "fsm": "54361fec8bba16372785fe4433cd4a4f1f5f51c421329d7748673ece00bbd1a8",
+    "board": "84532f7df3b6fc56a2c02c9d612dbb56d3ab611e3ba278f5c74153e0ecb5aa7b"
+  },
+  "svgDecoded": {
+    "colored": 30152,
+    "blue": 3187,
+    "red": 25423,
+    "width": 1000,
+    "height": 650
+  },
+  "passed": true
+}

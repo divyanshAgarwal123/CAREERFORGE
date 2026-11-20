@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="1000" height="650">
+  <title>Field planning sketch</title>
+  <rect width="1000" height="650" fill="white"/>
+  <path d="M 100 100 Q 107.33 103 111 104.5 Q 114.67 106 118.33 107.5 Q 122 109 125.67 110.5 Q 129.33 112 133 113.5 Q 136.67 115 140.33 116.5 Q 144 118 147.67 119.5 Q 151.33 121 155 122.5 Q 158.67 124 162.33 125.5 Q 166 127 169.67 128.5 Q 173.33 130 177 131.5 Q 180.67 133 184.33 134.5 Q 188 136 191.67 137.5 Q 195.33 139 199 140.5 Q 202.67 142 206.33 143.5 Q 210 145 213.67 146.5 Q 217.33 148 221 149.5 Q 224.67 151 228.33 152.5 Q 232 154 235.67 155.5 Q 239.33 157 243 158.5 Q 246.67 160 250.33 161.5 Q 254 163 257.67 164.5 Q 261.33 166 265 167.5 Q 268.67 169 272.33 170.5 Q 276 172 279.67 173.5 Q 283.33 175 287 176.5 Q 290.67 178 294.33 179.5 Q 298 181 301.67 182.5 Q 305.33 184 309 185.5 Q 312.67 187 316.33 188.5 Q 320 190 320 190" stroke="#22533b" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 100 250 L 650 250" stroke="#3265a8" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 420 350 H 780 V 500 H 420 Z" stroke="#a64238" stroke-width="24" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 500 325 L 510 375" stroke="#a64238" stroke-width="24" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

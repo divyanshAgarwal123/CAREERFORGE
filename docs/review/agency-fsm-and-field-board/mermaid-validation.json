@@ -1,0 +1,15 @@
+{
+  "version": "12.3.0",
+  "results": [
+    {
+      "diagramType": "stateDiagram",
+      "svgBytes": 26380,
+      "hasSvg": true
+    },
+    {
+      "diagramType": "stateDiagram",
+      "svgBytes": 18394,
+      "hasSvg": true
+    }
+  ]
+}

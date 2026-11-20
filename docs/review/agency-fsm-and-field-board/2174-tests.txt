@@ -1,0 +1,46 @@
+TAP version 13
+# Subtest: points interpolate with bounded distance, ignore jitter and clamp to the logical sheet
+ok 1 - points interpolate with bounded distance, ignore jitter and clamp to the logical sheet
+  ---
+  duration_ms: 1.654709
+  type: 'test'
+  ...
+# Subtest: smoothing, taps, lines and reversed rectangles serialize to finite paths
+ok 2 - smoothing, taps, lines and reversed rectangles serialize to finite paths
+  ---
+  duration_ms: 0.143375
+  type: 'test'
+  ...
+# Subtest: undo/redo, branching edits, clear and cancellation preserve completed strokes
+ok 3 - undo/redo, branching edits, clear and cancellation preserve completed strokes
+  ---
+  duration_ms: 0.217958
+  type: 'test'
+  ...
+# Subtest: history and stroke point limits bound retained edits without phantom undo steps
+ok 4 - history and stroke point limits bound retained edits without phantom undo steps
+  ---
+  duration_ms: 3.458958
+  type: 'test'
+  ...
+# Subtest: stroke eraser hits segment interiors and rectangle edges, remains undoable
+ok 5 - stroke eraser hits segment interiors and rectangle edges, remains undoable
+  ---
+  duration_ms: 0.198583
+  type: 'test'
+  ...
+# Subtest: SVG includes completed vector paths only, with safe colors, widths and no external content
+ok 6 - SVG includes completed vector paths only, with safe colors, widths and no external content
+  ---
+  duration_ms: 0.222792
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 49.127292
