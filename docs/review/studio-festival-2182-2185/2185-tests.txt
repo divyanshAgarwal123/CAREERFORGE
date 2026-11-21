@@ -1,0 +1,52 @@
+TAP version 13
+# Subtest: dispatch only follows an event from the current state and records rejected attempts
+ok 1 - dispatch only follows an event from the current state and records rejected attempts
+  ---
+  duration_ms: 0.693625
+  type: 'test'
+  ...
+# Subtest: guards fail closed without state changes, and a changed condition can allow retry
+ok 2 - guards fail closed without state changes, and a changed condition can allow retry
+  ---
+  duration_ms: 0.136417
+  type: 'test'
+  ...
+# Subtest: duplicate event rejects ambiguity and invalid definitions never mutate the diagram
+ok 3 - duplicate event rejects ambiguity and invalid definitions never mutate the diagram
+  ---
+  duration_ms: 0.421125
+  type: 'test'
+  ...
+# Subtest: cycles and self loops serialize deterministically using stable node identifiers
+ok 4 - cycles and self loops serialize deterministically using stable node identifiers
+  ---
+  duration_ms: 0.635042
+  type: 'test'
+  ...
+# Subtest: untrusted names cannot introduce Mermaid directives or HTML
+ok 5 - untrusted names cannot introduce Mermaid directives or HTML
+  ---
+  duration_ms: 0.153
+  type: 'test'
+  ...
+# Subtest: history and transitions are isolated copies; reset and bounds remain stable
+ok 6 - history and transitions are isolated copies; reset and bounds remain stable
+  ---
+  duration_ms: 0.2275
+  type: 'test'
+  ...
+# Subtest: festival lifecycle returns from an encore cycle and guards live entry
+ok 7 - festival lifecycle returns from an encore cycle and guards live entry
+  ---
+  duration_ms: 0.088458
+  type: 'test'
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 43.656042
