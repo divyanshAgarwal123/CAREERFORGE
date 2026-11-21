@@ -1,0 +1,20 @@
+stateDiagram-v2
+  state "Inquiry" as s0
+  state "Viewing" as s1
+  state "Offer" as s2
+  state "Closed" as s3
+  state "Wide state WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW#128512;4" as s4
+  state "Wide state WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW#128512;5" as s5
+  state "Wide state WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW#128512;6" as s6
+  state "Wide state WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW#128512;7" as s7
+  [*] --> s0
+  s0 --> s1 : Request viewing
+  s1 --> s0 : Edit request
+  s1 --> s2 : Make offer
+  s2 --> s3 : Accept offer #91;closing review approved#93;
+  s3 --> s0 : New inquiry
+  s0 --> s0 : Stay
+  s0 --> s4 : Wide event WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW4
+  s0 --> s5 : Wide event WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW5
+  s0 --> s6 : Wide event WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW6
+  s0 --> s7 : Wide event WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW7

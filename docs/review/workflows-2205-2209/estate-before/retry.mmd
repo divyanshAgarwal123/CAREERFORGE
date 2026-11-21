@@ -1,0 +1,12 @@
+stateDiagram-v2
+  state "Inquiry" as s0
+  state "Viewing" as s1
+  state "Offer" as s2
+  state "Closed" as s3
+  [*] --> s0
+  s0 --> s1 : Request viewing
+  s1 --> s0 : Edit request
+  s1 --> s2 : Make offer
+  s2 --> s3 : Accept offer #91;closing review approved#93;
+  s3 --> s0 : New inquiry
+  s0 --> s0 : Stay

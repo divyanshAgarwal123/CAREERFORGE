@@ -1,0 +1,15 @@
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: clipped maximum graph {"x":64,"y":7.112358570098877,"right":736,"bottom":471.3756947517395}
+    at file:///private/tmp/nsoc-1224-evidence/fsm-check.mjs:15:257 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v22.23.5

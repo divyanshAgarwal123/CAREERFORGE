@@ -1,0 +1,22 @@
+{
+  "folder": "real-estate-luxe",
+  "base": "http://127.0.0.1:5400",
+  "checks": [
+    "Guarded/invalid events and actual cycles, native keyboard focus, bounded rejection history, custom self loop, duplicate guard, native Mermaid export, error/retry and URL cleanup"
+  ],
+  "errors": [],
+  "failed": [],
+  "extendedGraph": {
+    "x": 64,
+    "y": 7.112358570098877,
+    "right": 736,
+    "bottom": 400.9999928474426
+  },
+  "extendedOverflow": 0,
+  "maximumGraph": {
+    "x": 64,
+    "y": 7.112358570098877,
+    "right": 736,
+    "bottom": 471.3756947517395
+  }
+}
