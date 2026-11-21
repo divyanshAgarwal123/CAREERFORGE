@@ -1,0 +1,12 @@
+stateDiagram-v2
+  state "Planning" as s0
+  state "Ready" as s1
+  state "Exploring" as s2
+  state "Complete" as s3
+  [*] --> s0
+  s0 --> s1 : Pack gear
+  s1 --> s0 : Revise plan
+  s1 --> s2 : Start journey
+  s2 --> s3 : Finish journey #91;trip review confirmed#93;
+  s3 --> s0 : Plan again
+  s0 --> s0 : Stay

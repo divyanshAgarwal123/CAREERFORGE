@@ -1,0 +1,26 @@
+{
+  "folder": "travel-odyssey",
+  "base": "http://127.0.0.1:5401",
+  "checks": [
+    "Guarded/invalid events and actual cycles, native keyboard focus, bounded rejection history, custom self loop, duplicate guard, native Mermaid export, error/retry and URL cleanup",
+    "All32transitions and wide parallel edges fit SVG;33rd is rejected without mutation",
+    "Eight wide/Unicode named states remain inside SVG/mobile bounds; full names retained in export; reset clears history and approval",
+    "Fresh desktop/mobile and reduced motion, zero page errors or failed resources"
+  ],
+  "errors": [],
+  "failed": [],
+  "extendedGraph": {
+    "x": 64,
+    "y": 7.112358570098877,
+    "right": 736,
+    "bottom": 400.9999928474426
+  },
+  "extendedOverflow": 0,
+  "maximumGraph": {
+    "x": 64,
+    "y": 7.112358570098877,
+    "right": 736,
+    "bottom": 400.9999928474426
+  },
+  "passed": true
+}
