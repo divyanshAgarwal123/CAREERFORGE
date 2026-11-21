@@ -1,0 +1,12 @@
+stateDiagram-v2
+  state "Planned" as s0
+  state "Active" as s1
+  state "Review" as s2
+  state "Complete" as s3
+  [*] --> s0
+  s0 --> s1 : Start check#45;in
+  s1 --> s0 : Pause check#45;in
+  s1 --> s2 : Finish check#45;in
+  s2 --> s3 : Confirm check#45;in #91;check#45;in review confirmed#93;
+  s3 --> s0 : Plan next
+  s0 --> s0 : Stay

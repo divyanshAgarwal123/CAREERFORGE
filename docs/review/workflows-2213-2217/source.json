@@ -1,0 +1,22 @@
+{
+  "2213": {
+    "source": "5548b9e64f2a3439169e8e4805a848cd7747cc16",
+    "parent": "4a5adbbc325791aeecd5b0263447e819e2af4010",
+    "files": [
+      "public/showcase/gaming-esports-hub/state-diagram.css",
+      "public/showcase/gaming-esports-hub/state-diagram.html",
+      "public/showcase/gaming-esports-hub/state-diagram.js",
+      "public/showcase/gaming-esports-hub/state-diagram.test.mjs"
+    ]
+  },
+  "2217": {
+    "source": "e383231293c4c26e90b3a27f932313bab90ccb1d",
+    "parent": "4a5adbbc325791aeecd5b0263447e819e2af4010",
+    "files": [
+      "public/showcase/health-vitality/state-diagram.css",
+      "public/showcase/health-vitality/state-diagram.html",
+      "public/showcase/health-vitality/state-diagram.js",
+      "public/showcase/health-vitality/state-diagram.test.mjs"
+    ]
+  }
+}

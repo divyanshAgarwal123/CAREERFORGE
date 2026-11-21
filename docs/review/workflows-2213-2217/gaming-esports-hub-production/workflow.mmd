@@ -1,0 +1,12 @@
+stateDiagram-v2
+  state "Lobby" as s0
+  state "Queue" as s1
+  state "Match" as s2
+  state "Complete" as s3
+  [*] --> s0
+  s0 --> s1 : Join queue
+  s1 --> s0 : Leave queue
+  s1 --> s2 : Start match
+  s2 --> s3 : Finish match #91;round completion confirmed#93;
+  s3 --> s0 : Next round
+  s0 --> s0 : Stay
