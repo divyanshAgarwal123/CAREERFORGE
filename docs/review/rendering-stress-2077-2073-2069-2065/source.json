@@ -1,0 +1,30 @@
+[
+  {
+    "issue": 2077,
+    "folder": "podcast-audio-stream",
+    "head": "ebeb7ad3ed49f0cbd7ad7ff6867ad2fc8359136e",
+    "base": "c7f2549c813dfb7743cc24d09ca17f1f1abf536f",
+    "branch": "codex/nsoc-stress-2077"
+  },
+  {
+    "issue": 2073,
+    "folder": "edtech-academy",
+    "head": "fca7c9683b31b8c585a3af4131f6dc81cfaf476d",
+    "base": "c7f2549c813dfb7743cc24d09ca17f1f1abf536f",
+    "branch": "codex/nsoc-stress-2073"
+  },
+  {
+    "issue": 2069,
+    "folder": "travel-odyssey",
+    "head": "efc960c067f94b3cd842af8ba726a2ae0ba0e74b",
+    "base": "c7f2549c813dfb7743cc24d09ca17f1f1abf536f",
+    "branch": "codex/nsoc-stress-2069"
+  },
+  {
+    "issue": 2065,
+    "folder": "health-vitality",
+    "head": "7780475bb63c53a0fa46fe1d61ec50a3ec07d658",
+    "base": "c7f2549c813dfb7743cc24d09ca17f1f1abf536f",
+    "branch": "codex/nsoc-stress-2065"
+  }
+]
