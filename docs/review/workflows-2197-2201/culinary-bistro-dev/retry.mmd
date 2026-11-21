@@ -1,0 +1,16 @@
+stateDiagram-v2
+  state "Received" as s0
+  state "Preparing" as s1
+  state "Ready" as s2
+  state "Served" as s3
+  state "Cancelled" as s4
+  [*] --> s0
+  s0 --> s1 : Start prep
+  s1 --> s2 : Plate
+  s2 --> s3 : Serve #91;handover confirmed#93;
+  s0 --> s4 : Cancel
+  s1 --> s4 : Cancel
+  s2 --> s4 : Cancel
+  s3 --> s0 : Next order
+  s4 --> s0 : New order
+  s0 --> s0 : Stay

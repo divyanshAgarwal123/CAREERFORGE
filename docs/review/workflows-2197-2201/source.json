@@ -1,0 +1,22 @@
+{
+  "2197": {
+    "source": "1baf9a85e477f70f5b6e2b549cd910f07d8e2326",
+    "parent": "47f26ca74fbe0fac520cfebf53ee8a85f2877a03",
+    "files": [
+      "public/showcase/docs-portal/state-diagram.css",
+      "public/showcase/docs-portal/state-diagram.html",
+      "public/showcase/docs-portal/state-diagram.js",
+      "public/showcase/docs-portal/state-diagram.test.mjs"
+    ]
+  },
+  "2201": {
+    "source": "c7d171bee85cb1a0c721912b986d1a545ce3670c",
+    "parent": "47f26ca74fbe0fac520cfebf53ee8a85f2877a03",
+    "files": [
+      "public/showcase/culinary-bistro/state-diagram.css",
+      "public/showcase/culinary-bistro/state-diagram.html",
+      "public/showcase/culinary-bistro/state-diagram.js",
+      "public/showcase/culinary-bistro/state-diagram.test.mjs"
+    ]
+  }
+}
