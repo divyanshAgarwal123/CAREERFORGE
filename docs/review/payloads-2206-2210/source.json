@@ -1,0 +1,22 @@
+{
+  "2206": {
+    "source": "84d5782f367be70134656eba8de20c8fa665b4e1",
+    "parent": "68b03b00b807c0969ee2fb4c9927154462a6276e",
+    "files": [
+      "public/showcase/real-estate-luxe/compression-suite.css",
+      "public/showcase/real-estate-luxe/compression-suite.html",
+      "public/showcase/real-estate-luxe/compression-suite.js",
+      "public/showcase/real-estate-luxe/compression-suite.test.mjs"
+    ]
+  },
+  "2210": {
+    "source": "a4e6a3aef2e7661978e89c9ca16dce8327cf6d7a",
+    "parent": "68b03b00b807c0969ee2fb4c9927154462a6276e",
+    "files": [
+      "public/showcase/fintech-vault/compression-suite.css",
+      "public/showcase/fintech-vault/compression-suite.html",
+      "public/showcase/fintech-vault/compression-suite.js",
+      "public/showcase/fintech-vault/compression-suite.test.mjs"
+    ]
+  }
+}

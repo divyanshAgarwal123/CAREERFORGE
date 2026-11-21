@@ -1,0 +1,82 @@
+TAP version 13
+# Subtest: known dictionary sequence and the special next-code case
+ok 1 - known dictionary sequence and the special next-code case
+  ---
+  duration_ms: 1.265958
+  type: 'test'
+  ...
+# Subtest: lossless Unicode, embedded zero, combining marks and BOM
+ok 2 - lossless Unicode, embedded zero, combining marks and BOM
+  ---
+  duration_ms: 0.879667
+  type: 'test'
+  ...
+# Subtest: packed bytes include header and fixed-width codes, even for expansion
+ok 3 - packed bytes include header and fixed-width codes, even for expansion
+  ---
+  duration_ms: 0.197708
+  type: 'test'
+  ...
+# Subtest: repetition reduces the actual full binary payload
+ok 4 - repetition reduces the actual full binary payload
+  ---
+  duration_ms: 0.406458
+  type: 'test'
+  ...
+# Subtest: header is portable big-endian and accepts a non-zero byte offset
+ok 5 - header is portable big-endian and accepts a non-zero byte offset
+  ---
+  duration_ms: 0.15
+  type: 'test'
+  ...
+# Subtest: returned arrays and metrics cannot mutate the retained result
+ok 6 - returned arrays and metrics cannot mutate the retained result
+  ---
+  duration_ms: 0.085042
+  type: 'test'
+  ...
+# Subtest: reject invalid text atomically instead of silently replacing surrogates
+ok 7 - reject invalid text atomically instead of silently replacing surrogates
+  ---
+  duration_ms: 2.315042
+  type: 'test'
+  ...
+# Subtest: reject malformed codes, invalid UTF-8 and oversized decoding
+ok 8 - reject malformed codes, invalid UTF-8 and oversized decoding
+  ---
+  duration_ms: 0.942041
+  type: 'test'
+  ...
+# Subtest: reject truncated, extended, forged and mismatched binary headers
+ok 9 - reject truncated, extended, forged and mismatched binary headers
+  ---
+  duration_ms: 0.349666
+  type: 'test'
+  ...
+# Subtest: independent encoder comparison for 200 deterministic varied payloads
+ok 10 - independent encoder comparison for 200 deterministic varied payloads
+  ---
+  duration_ms: 51.187875
+  type: 'test'
+  ...
+# Subtest: full bounded dictionary freezes consistently on a 256 KiB entropy payload
+ok 11 - full bounded dictionary freezes consistently on a 256 KiB entropy payload
+  ---
+  duration_ms: 72.622666
+  type: 'test'
+  ...
+# Subtest: modeled link validation is explicit and cannot change the payload
+ok 12 - modeled link validation is explicit and cannot change the payload
+  ---
+  duration_ms: 0.207041
+  type: 'test'
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 171.730625
