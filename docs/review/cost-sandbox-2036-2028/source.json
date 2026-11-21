@@ -1,0 +1,18 @@
+[
+  {
+    "issue": 2036,
+    "folder": "festival-hub",
+    "head": "7953846115b90eed79b76c2d763c97f175465a79",
+    "base": "84da4d5f66106e03622ce8d1518d5880259a43b9",
+    "branch": "codex/nsoc-cost-2036",
+    "kind": "cost"
+  },
+  {
+    "issue": 2028,
+    "folder": "ecommerce-store",
+    "head": "b1abc63bb63846ae13fce969804cab8bb11375c9",
+    "base": "84da4d5f66106e03622ce8d1518d5880259a43b9",
+    "branch": "codex/nsoc-cost-2028",
+    "kind": "cost"
+  }
+]
