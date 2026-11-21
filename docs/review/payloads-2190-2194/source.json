@@ -1,0 +1,14 @@
+[
+  {
+    "issue": 2190,
+    "folder": "saas-launchpad",
+    "sourceHead": "bfd9598b1de397dac50f7ebcc4bd48d92b6bf181",
+    "actualParent": "a7b54256e09e164bee82382142d69dc619f0ea72"
+  },
+  {
+    "issue": 2194,
+    "folder": "developer-portfolio",
+    "sourceHead": "07b97a7cc76eed0f1e873db7a707e30bd85dea20",
+    "actualParent": "a7b54256e09e164bee82382142d69dc619f0ea72"
+  }
+]
