@@ -1,0 +1,25 @@
+{
+  "base": "http://127.0.0.1:5414",
+  "folder": "neurotech-interface",
+  "checks": [
+    "native keyboard start; 64 real nodes; 60 completed intervals independently match observed rAF FPS/jitter; 60 forced geometry reads; cleanup",
+    "invalid input preserves prior report; injected layout failure preserves report/metrics and retries; native stop and injected visibility cancellation leave no queued measurements or nodes",
+    "explicit unavailable-heap fixture keeps real frame measurements and score; reduced-motion desktop/320/390/760px; no page errors or failed resources"
+  ],
+  "errors": [],
+  "failed": [],
+  "actualMeasurement": {
+    "status": "completed",
+    "frames": 60,
+    "fps": 30.001920122887864,
+    "jitterMs": 0.07844067796622767,
+    "layoutMs": 1.3816666664555668,
+    "score": 64,
+    "heapMiB": 3.1846485137939453,
+    "heapChangeMiB": 0.7058877944946289,
+    "independentlyObservedCallbacks": 61,
+    "forcedLayoutReads": 60
+  },
+  "fixtures": "Native rAF/DOM/layout in installed Chrome. Error path injects a layout exception; visibility and unsupported-memory branches are explicitly simulated. No metric samples or page work are mocked in the normal run.",
+  "passed": true
+}

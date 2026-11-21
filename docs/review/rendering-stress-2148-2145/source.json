@@ -1,0 +1,16 @@
+[
+  {
+    "issue": 2148,
+    "folder": "weather-radar-atlas",
+    "head": "0b6e25dbb8a4d0336f680ffb8309ca5ad7bd5ce9",
+    "base": "19c8990fd8e4a2da5edbb334e77b6cf1230dbd3c",
+    "branch": "codex/nsoc-stress-2148"
+  },
+  {
+    "issue": 2145,
+    "folder": "neurotech-interface",
+    "head": "80a376ca77a112e469b015427bf2cb206a95226d",
+    "base": "19c8990fd8e4a2da5edbb334e77b6cf1230dbd3c",
+    "branch": "codex/nsoc-stress-2145"
+  }
+]
