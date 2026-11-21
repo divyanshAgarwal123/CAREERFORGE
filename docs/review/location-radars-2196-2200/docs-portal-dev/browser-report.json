@@ -1,0 +1,11 @@
+{
+  "folder": "docs-portal",
+  "base": "http://127.0.0.1:5404",
+  "checks": [
+    "distance-sorted list and outside-range status; native range input and Space/Enter blips; dateline eastward geometry; invalid-origin preservation; undefined polar bearings; list selection; pause/resume and reduced motion",
+    "desktop and 320/390/760px layout; zero page errors and failed resources"
+  ],
+  "errors": [],
+  "failed": [],
+  "passed": true
+}

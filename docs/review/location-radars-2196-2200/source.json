@@ -1,0 +1,28 @@
+[
+  {
+    "issue": 2196,
+    "folder": "docs-portal",
+    "head": "b290319affda8229b5246e92b62320857e036a41",
+    "base": "8e947c2bdb634e8929b3d7cd2277c56f365ddf82",
+    "branch": "codex/nsoc-2196-location-radar",
+    "files": [
+      "public/showcase/docs-portal/geo-tracker.html",
+      "public/showcase/docs-portal/geo-tracker.css",
+      "public/showcase/docs-portal/geo-tracker.js",
+      "public/showcase/docs-portal/geo-tracker.test.mjs"
+    ]
+  },
+  {
+    "issue": 2200,
+    "folder": "culinary-bistro",
+    "head": "4ba3a66419851127b5e1a83ed797eb8549382251",
+    "base": "8e947c2bdb634e8929b3d7cd2277c56f365ddf82",
+    "branch": "codex/nsoc-2200-location-radar",
+    "files": [
+      "public/showcase/culinary-bistro/geo-tracker.html",
+      "public/showcase/culinary-bistro/geo-tracker.css",
+      "public/showcase/culinary-bistro/geo-tracker.js",
+      "public/showcase/culinary-bistro/geo-tracker.test.mjs"
+    ]
+  }
+]
