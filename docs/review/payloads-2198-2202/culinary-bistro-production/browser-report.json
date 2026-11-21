@@ -1,0 +1,43 @@
+{
+  "folder": "culinary-bistro",
+  "base": "http://127.0.0.1:5403",
+  "checks": [
+    "Native example/Unicode/expansion/empty/download retry with independent binary decoder and actual file sizes; edit invalidates export; oversized input and invalid link errors recover; bandwidth changes only model; Blob/anchor cleanup",
+    "Reduced motion and 320/390/760px layout with no overflow"
+  ],
+  "downloads": [
+    {
+      "name": "example",
+      "bytes": 1426,
+      "original": 2420,
+      "decoded": true
+    },
+    {
+      "name": "unicode",
+      "bytes": 564,
+      "original": 960,
+      "decoded": true
+    },
+    {
+      "name": "expanded",
+      "bytes": 14,
+      "original": 1,
+      "decoded": true
+    },
+    {
+      "name": "empty",
+      "bytes": 12,
+      "original": 0,
+      "decoded": true
+    },
+    {
+      "name": "retry",
+      "bytes": 1426,
+      "original": 2420,
+      "decoded": true
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "passed": true
+}
