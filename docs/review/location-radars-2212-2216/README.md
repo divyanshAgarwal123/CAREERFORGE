@@ -9,3 +9,5 @@ All four native Vite development/production reports passed distance-sorted cards
 ## Reproduce
 
 Check out a source head in source.json; under Node 22 run npm ci, node --test public/showcase/PROJECT/geo-tracker.test.mjs, npm run lint -- public/showcase/PROJECT/geo-tracker.js public/showcase/PROJECT/geo-tracker.test.mjs, and npm run build. Start the normal npm run dev or npm run preview server. Run browser-check.mjs with PLAYWRIGHT_MODULE pointing to an installed Playwright ESM module, BASE set to the local URL, OUT to an evidence directory, and FOLDER to gaming-esports-hub or health-vitality. Set NORTH to "North demo training venue" or "North demo wellness hub", respectively. The harness uses a fresh headless Chrome profile at the standard macOS application path.
+
+The wellness branch incorporates upstream main after the repository merge workflow failed with "Base branch was modified". Its four feature files are byte-identical; the focused tests, lint, normal production build and both native browser modes passed again at the updated head in source.json. This was a normal base merge, with no force push or workflow rerun.
