@@ -1,0 +1,3 @@
+
+> carrers-frontend@0.0.0 lint
+> oxlint public/showcase/developer-portfolio/geo-tracker.js public/showcase/developer-portfolio/geo-tracker.test.mjs

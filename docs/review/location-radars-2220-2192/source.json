@@ -1,0 +1,28 @@
+[
+  {
+    "issue": 2220,
+    "folder": "travel-odyssey",
+    "head": "6f109eb24aaf6a05a0f226283c6211e06eb08454",
+    "base": "3fb64499e8ef4f38fc405dc2a088b06ad6ee4c1a",
+    "branch": "codex/nsoc-2220-location-radar",
+    "files": [
+      "public/showcase/travel-odyssey/geo-tracker.html",
+      "public/showcase/travel-odyssey/geo-tracker.css",
+      "public/showcase/travel-odyssey/geo-tracker.js",
+      "public/showcase/travel-odyssey/geo-tracker.test.mjs"
+    ]
+  },
+  {
+    "issue": 2192,
+    "folder": "developer-portfolio",
+    "head": "703dfa10012c0c06f88b33dad4eda5005a5c2d5c",
+    "base": "3fb64499e8ef4f38fc405dc2a088b06ad6ee4c1a",
+    "branch": "codex/nsoc-2192-location-radar",
+    "files": [
+      "public/showcase/developer-portfolio/geo-tracker.html",
+      "public/showcase/developer-portfolio/geo-tracker.css",
+      "public/showcase/developer-portfolio/geo-tracker.js",
+      "public/showcase/developer-portfolio/geo-tracker.test.mjs"
+    ]
+  }
+]

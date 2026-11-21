@@ -1,0 +1,3 @@
+
+> carrers-frontend@0.0.0 lint
+> oxlint public/showcase/travel-odyssey/geo-tracker.js public/showcase/travel-odyssey/geo-tracker.test.mjs
