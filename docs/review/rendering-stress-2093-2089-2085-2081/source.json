@@ -1,0 +1,30 @@
+[
+  {
+    "issue": 2093,
+    "folder": "cybersecurity-sentinel",
+    "head": "b700c2473bf4e37cd9dc99a6bc3b8a5cf09d9fda",
+    "base": "718aa40e70d905cfc876c77d4dc18a6a73354e35",
+    "branch": "codex/nsoc-stress-2093"
+  },
+  {
+    "issue": 2089,
+    "folder": "ai-voice-studio",
+    "head": "9120c28f7beb51989da0b0473b4d6b6a6f8c79fe",
+    "base": "718aa40e70d905cfc876c77d4dc18a6a73354e35",
+    "branch": "codex/nsoc-stress-2089"
+  },
+  {
+    "issue": 2085,
+    "folder": "automotive-hypercar",
+    "head": "79a62a02db447667692cbb67100d29e62b9a752b",
+    "base": "718aa40e70d905cfc876c77d4dc18a6a73354e35",
+    "branch": "codex/nsoc-stress-2085"
+  },
+  {
+    "issue": 2081,
+    "folder": "nonprofit-impact",
+    "head": "5203af267d64006c0386fcf73f5eda37928adb86",
+    "base": "718aa40e70d905cfc876c77d4dc18a6a73354e35",
+    "branch": "codex/nsoc-stress-2081"
+  }
+]

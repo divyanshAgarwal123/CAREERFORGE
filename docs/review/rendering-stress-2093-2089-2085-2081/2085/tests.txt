@@ -1,0 +1,70 @@
+TAP version 13
+# Subtest: jitter agrees with independently summed adjacent interval differences
+ok 1 - jitter agrees with independently summed adjacent interval differences
+  ---
+  duration_ms: 2.191042
+  type: 'test'
+  ...
+# Subtest: composite score has known endpoints and degrades monotonically with workload cost
+ok 2 - composite score has known endpoints and degrades monotonically with workload cost
+  ---
+  duration_ms: 0.134583
+  type: 'test'
+  ...
+# Subtest: invalid and sparse measurements reject rather than inventing scores
+ok 3 - invalid and sparse measurements reject rather than inventing scores
+  ---
+  duration_ms: 0.210834
+  type: 'test'
+  ...
+# Subtest: real callback timestamps, injected work cost and heap samples determine the report
+ok 4 - real callback timestamps, injected work cost and heap samples determine the report
+  ---
+  duration_ms: 0.49925
+  type: 'test'
+  ...
+# Subtest: unsupported, invalid or throwing heap readers stay unavailable and never enter the score
+ok 5 - unsupported, invalid or throwing heap readers stay unavailable and never enter the score
+  ---
+  duration_ms: 0.256625
+  type: 'test'
+  ...
+# Subtest: heap collection can fall after garbage collection without being mistaken for an error
+ok 6 - heap collection can fall after garbage collection without being mistaken for an error
+  ---
+  duration_ms: 0.063417
+  type: 'test'
+  ...
+# Subtest: stopping cancels the queued callback and cannot complete a stale run
+ok 7 - stopping cancels the queued callback and cannot complete a stale run
+  ---
+  duration_ms: 0.114375
+  type: 'test'
+  ...
+# Subtest: stop during progress callback resolves once and schedules no new work
+ok 8 - stop during progress callback resolves once and schedules no new work
+  ---
+  duration_ms: 0.102708
+  type: 'test'
+  ...
+# Subtest: overlapping runs and out-of-bounds requests fail without altering the active run
+ok 9 - overlapping runs and out-of-bounds requests fail without altering the active run
+  ---
+  duration_ms: 0.381583
+  type: 'test'
+  ...
+# Subtest: work, callback, scheduler and non-monotonic timestamp failures release running state
+ok 10 - work, callback, scheduler and non-monotonic timestamp failures release running state
+  ---
+  duration_ms: 0.627916
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 47.779875
