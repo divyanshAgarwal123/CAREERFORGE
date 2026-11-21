@@ -1,0 +1,44 @@
+[
+  {
+    "issue": 2061,
+    "folder": "gaming-esports-hub",
+    "head": "d2b5a2afd5310d408786981ca396812242e55689",
+    "base": "6aaa5eedb3981a4f10335815640662cb6814e4f8",
+    "branch": "codex/nsoc-stress-2061"
+  },
+  {
+    "issue": 2057,
+    "folder": "fintech-vault",
+    "head": "e0f4430be772e3fd97e20fab7428f845667dc899",
+    "base": "6aaa5eedb3981a4f10335815640662cb6814e4f8",
+    "branch": "codex/nsoc-stress-2057"
+  },
+  {
+    "issue": 2053,
+    "folder": "real-estate-luxe",
+    "head": "1bf6cf3d734f9679462127e2dbdb91fdf0defc42",
+    "base": "6aaa5eedb3981a4f10335815640662cb6814e4f8",
+    "branch": "codex/nsoc-stress-2053"
+  },
+  {
+    "issue": 2049,
+    "folder": "culinary-bistro",
+    "head": "deb1b349ba5e8a88ce50309ba430a5b2c5a7e25e",
+    "base": "6aaa5eedb3981a4f10335815640662cb6814e4f8",
+    "branch": "codex/nsoc-stress-2049"
+  },
+  {
+    "issue": 2045,
+    "folder": "docs-portal",
+    "head": "bdf37ff12728f55af82ff8e85efe9f6cfc7520a0",
+    "base": "6aaa5eedb3981a4f10335815640662cb6814e4f8",
+    "branch": "codex/nsoc-stress-2045"
+  },
+  {
+    "issue": 2041,
+    "folder": "developer-portfolio",
+    "head": "112cd42cc1477d3db49af4b2829581771846b0e7",
+    "base": "6aaa5eedb3981a4f10335815640662cb6814e4f8",
+    "branch": "codex/nsoc-stress-2041"
+  }
+]
