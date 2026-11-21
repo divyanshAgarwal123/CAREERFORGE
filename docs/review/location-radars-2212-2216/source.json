@@ -1,0 +1,28 @@
+[
+  {
+    "issue": 2212,
+    "folder": "gaming-esports-hub",
+    "head": "05d6c9a1a3a92adc1aa2ef002944cc617ab0c3bd",
+    "base": "8b7dcca0c40563b481f407d5f3e38977cebe0ef6",
+    "branch": "codex/nsoc-2212-location-radar",
+    "files": [
+      "public/showcase/gaming-esports-hub/geo-tracker.html",
+      "public/showcase/gaming-esports-hub/geo-tracker.css",
+      "public/showcase/gaming-esports-hub/geo-tracker.js",
+      "public/showcase/gaming-esports-hub/geo-tracker.test.mjs"
+    ]
+  },
+  {
+    "issue": 2216,
+    "folder": "health-vitality",
+    "head": "463b9238b7e3b8bde7823e85ee50945efcd9d258",
+    "base": "8b7dcca0c40563b481f407d5f3e38977cebe0ef6",
+    "branch": "codex/nsoc-2216-location-radar",
+    "files": [
+      "public/showcase/health-vitality/geo-tracker.html",
+      "public/showcase/health-vitality/geo-tracker.css",
+      "public/showcase/health-vitality/geo-tracker.js",
+      "public/showcase/health-vitality/geo-tracker.test.mjs"
+    ]
+  }
+]

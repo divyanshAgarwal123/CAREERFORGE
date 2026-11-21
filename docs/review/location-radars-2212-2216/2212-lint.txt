@@ -1,0 +1,4 @@
+
+> carrers-frontend@0.0.0 lint
+> oxlint public/showcase/gaming-esports-hub/geo-tracker.js public/showcase/gaming-esports-hub/geo-tracker.test.mjs
+
