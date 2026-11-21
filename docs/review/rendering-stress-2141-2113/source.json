@@ -1,0 +1,16 @@
+[
+  {
+    "issue": 2141,
+    "folder": "robotics-automata",
+    "head": "3e6a0bc5afb2a45c60d72f718c2199600dbcba09",
+    "base": "5ee2454aa4c01afb97cb88328252e90a15d39a78",
+    "branch": "codex/nsoc-stress-2141"
+  },
+  {
+    "issue": 2113,
+    "folder": "biotech-genomics",
+    "head": "f09c0fcb123ff1b1c800fbd273496fe4f7af1118",
+    "base": "5ee2454aa4c01afb97cb88328252e90a15d39a78",
+    "branch": "codex/nsoc-stress-2113"
+  }
+]
