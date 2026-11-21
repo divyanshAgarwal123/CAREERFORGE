@@ -1,0 +1,16 @@
+{
+  "base": "http://127.0.0.1:5402",
+  "checks": [
+    "Native guarded stage check, keyboard focus, pause/resume/end/next cycle, rejected attempt history, self-loop, duplicate rejection, actual Mermaid download, download error/retry and URL cleanup",
+    "Reset clears history; desktop and 320/390/760px reduced-motion layouts, no overflow"
+  ],
+  "errors": [],
+  "failed": [],
+  "graphBounds": {
+    "x": 77.21473693847656,
+    "y": 7.112358570098877,
+    "right": 722.7852935791016,
+    "bottom": 375.47158098220825
+  },
+  "passed": true
+}

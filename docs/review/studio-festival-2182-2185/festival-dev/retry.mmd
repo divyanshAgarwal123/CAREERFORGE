@@ -1,0 +1,15 @@
+stateDiagram-v2
+  state "Soundcheck" as s0
+  state "Ready" as s1
+  state "Live" as s2
+  state "Paused" as s3
+  state "Finished" as s4
+  [*] --> s0
+  s0 --> s1 : Prepare stage
+  s1 --> s2 : Start set #91;stage cleared#93;
+  s2 --> s3 : Pause set
+  s3 --> s2 : Resume set
+  s2 --> s4 : End set
+  s3 --> s4 : End set
+  s4 --> s0 : Next set
+  s0 --> s0 : Stay
