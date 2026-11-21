@@ -1,0 +1,30 @@
+[
+  {
+    "issue": 2037,
+    "folder": "saas-launchpad",
+    "head": "712b2f76c9991b1974d11ca9b91aae1243cea28a",
+    "base": "163b526f88310db8abf0966b7a2a66220fccbd59",
+    "branch": "codex/nsoc-stress-2037"
+  },
+  {
+    "issue": 2033,
+    "folder": "festival-hub",
+    "head": "98f83be225ec3d8e34848e4caf9dd721737520a5",
+    "base": "163b526f88310db8abf0966b7a2a66220fccbd59",
+    "branch": "codex/nsoc-stress-2033"
+  },
+  {
+    "issue": 2029,
+    "folder": "agency-studio",
+    "head": "e96e7ed09fb5efc8779dc59950cb55e9fbbabd29",
+    "base": "163b526f88310db8abf0966b7a2a66220fccbd59",
+    "branch": "codex/nsoc-stress-2029"
+  },
+  {
+    "issue": 2025,
+    "folder": "ecommerce-store",
+    "head": "fe97f0909a657ea0e5e31a91362b12c9cf866d6f",
+    "base": "163b526f88310db8abf0966b7a2a66220fccbd59",
+    "branch": "codex/nsoc-stress-2025"
+  }
+]
