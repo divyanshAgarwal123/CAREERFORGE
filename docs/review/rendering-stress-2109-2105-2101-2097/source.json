@@ -1,0 +1,30 @@
+[
+  {
+    "issue": 2109,
+    "folder": "quantum-forge",
+    "head": "06c533314be051596811443a6b6b368e69fb1a11",
+    "base": "87bad83bde47f5c2b97abc3e2b7ed191018ebcd8",
+    "branch": "codex/nsoc-stress-2109"
+  },
+  {
+    "issue": 2105,
+    "folder": "aerospace-orbiter",
+    "head": "9e6bd10267820792609c8f117aacc5a3967a112b",
+    "base": "87bad83bde47f5c2b97abc3e2b7ed191018ebcd8",
+    "branch": "codex/nsoc-stress-2105"
+  },
+  {
+    "issue": 2101,
+    "folder": "crypto-exchange-pro",
+    "head": "db2a31f2e25e51dfee433aa9fefee54c9b44d27e",
+    "base": "87bad83bde47f5c2b97abc3e2b7ed191018ebcd8",
+    "branch": "codex/nsoc-stress-2101"
+  },
+  {
+    "issue": 2097,
+    "folder": "luxury-realms",
+    "head": "eb346dd1a2e334d1fe9f341c0e3e2ad2bc8be18a",
+    "base": "87bad83bde47f5c2b97abc3e2b7ed191018ebcd8",
+    "branch": "codex/nsoc-stress-2097"
+  }
+]
