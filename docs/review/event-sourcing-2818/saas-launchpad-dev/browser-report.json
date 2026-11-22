@@ -1,0 +1,19 @@
+{
+  "base": "http://127.0.0.1:5432",
+  "errors": [],
+  "failed": [],
+  "badResources": [],
+  "checks": [
+    "Native keyboard form appends; independent known state projections; Home/Arrow/End and previous/next/chip navigation; append while rewound preserves all earlier rows and uses live head; invalid JSON/prototype fields retain state; HTML canary stays literal text; normal retry",
+    "Real500ms playback advances/pause holds/completes at head; reset during playback cancels old work; explicit pagehide lifecycle fixture stops timer and preserves history",
+    "Four native responsive widths without body overflow; actual local module/style/document resources; no page/resource failures or fetch/XHR"
+  ],
+  "widths": [
+    1360,
+    760,
+    390,
+    320
+  ],
+  "fixtureDisclosure": "Workspace events and playback use actual controls, browser clocks and intervals. Prototype/HTML strings are deliberate hostile input tests. pagehide is an explicitly dispatched lifecycle fixture, not real browser-cache navigation. State is an in-memory demo with local ordering timestamps, not production accounts or durable/cryptographic storage.",
+  "passed": true
+}

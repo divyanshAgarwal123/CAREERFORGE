@@ -1,0 +1,8 @@
+{
+  "issue": 2818,
+  "folder": "saas-launchpad",
+  "feature": "event-sourcing",
+  "head": "bf56555b5543f1fa57263203f8be7f566ef1b217",
+  "base": "e2e3f40c7cbdab9ec2024241b871ff8db931d102",
+  "branch": "codex/nsoc-engine-2818"
+}

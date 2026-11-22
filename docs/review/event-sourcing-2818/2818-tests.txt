@@ -1,0 +1,21 @@
+✔ empty ledger and any initial historical query return fresh genesis state (1.454167ms)
+✔ ordered event mutations produce a deterministic current materialization (0.25275ms)
+✔ replay includes the exact timestamp and preserves earlier boundaries (0.12175ms)
+✔ same-time and backward clocks preserve strict local ordering (0.096916ms)
+✔ rewinding never truncates history or changes the live append target (0.137375ms)
+✔ input payloads, returned events and exported ledger copies cannot edit stored events (0.079125ms)
+✔ current and historical state copies remain isolated from later appends (0.061292ms)
+✔ invalid types, fields, prototypes and non-JSON values leave all state intact (0.323292ms)
+✔ seat bounds reject underflow and overflow atomically (0.529333ms)
+✔ normalizes whitespace in names and rejects no-op mutations (0.173125ms)
+✔ bad clocks and ordering overflow preserve the last valid event (0.173875ms)
+✔ invalid replay timestamps cannot affect live state or history (0.097083ms)
+✔ five hundred event ceiling preserves every accepted event and projection (3.239459ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 94.601084
