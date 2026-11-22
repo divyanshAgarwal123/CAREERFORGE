@@ -1,0 +1,46 @@
+TAP version 13
+# Subtest: normalizes case, whitespace and sentence punctuation
+ok 1 - normalizes case, whitespace and sentence punctuation
+  ---
+  duration_ms: 0.615208
+  type: 'test'
+  ...
+# Subtest: rejects incidental phrases and reports a typed fallback
+ok 2 - rejects incidental phrases and reports a typed fallback
+  ---
+  duration_ms: 0.366667
+  type: 'test'
+  ...
+# Subtest: dispatches a final result once and ignores interim results
+ok 3 - dispatches a final result once and ignores interim results
+  ---
+  duration_ms: 0.628167
+  type: 'test'
+  ...
+# Subtest: clears a denied session and ignores callbacks from it after retry
+ok 4 - clears a denied session and ignores callbacks from it after retry
+  ---
+  duration_ms: 0.155958
+  type: 'test'
+  ...
+# Subtest: handles missing speech recognition and synchronous start errors
+ok 5 - handles missing speech recognition and synchronous start errors
+  ---
+  duration_ms: 0.095375
+  type: 'test'
+  ...
+# Subtest: constructs a controlled speech response and tolerates absent synthesis
+ok 6 - constructs a controlled speech response and tolerates absent synthesis
+  ---
+  duration_ms: 0.116042
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 46.631458

@@ -1,0 +1,37 @@
+{
+  "kind": "cost",
+  "samples": [
+    {
+      "width": 1360,
+      "keyboardRanges": true,
+      "zeroQuote": true,
+      "annualMax": "9574.74",
+      "matchingBreakdown": true,
+      "errors": []
+    },
+    {
+      "width": 760,
+      "keyboardRanges": true,
+      "zeroQuote": true,
+      "annualMax": "9574.74",
+      "matchingBreakdown": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "keyboardRanges": true,
+      "zeroQuote": true,
+      "annualMax": "9574.74",
+      "matchingBreakdown": true,
+      "errors": []
+    },
+    {
+      "width": 320,
+      "keyboardRanges": true,
+      "zeroQuote": true,
+      "annualMax": "9574.74",
+      "matchingBreakdown": true,
+      "errors": []
+    }
+  ]
+}

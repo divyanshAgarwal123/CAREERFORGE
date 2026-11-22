@@ -1,0 +1,38 @@
+{
+  "kind": "voice",
+  "samples": [
+    {
+      "width": 1360,
+      "typedNavigation": true,
+      "permissionErrorAndRetry": true,
+      "staleResultsIgnored": true,
+      "synthesizedFixture": true,
+      "errors": []
+    },
+    {
+      "width": 760,
+      "typedNavigation": true,
+      "permissionErrorAndRetry": true,
+      "staleResultsIgnored": true,
+      "synthesizedFixture": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "typedNavigation": true,
+      "permissionErrorAndRetry": true,
+      "staleResultsIgnored": true,
+      "synthesizedFixture": true,
+      "errors": []
+    },
+    {
+      "width": 320,
+      "typedNavigation": true,
+      "permissionErrorAndRetry": true,
+      "staleResultsIgnored": true,
+      "synthesizedFixture": true,
+      "errors": []
+    }
+  ],
+  "recognition": "Deterministic fixture; no live microphone or audio output used."
+}

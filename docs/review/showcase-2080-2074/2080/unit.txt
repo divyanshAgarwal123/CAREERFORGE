@@ -1,0 +1,52 @@
+TAP version 13
+# Subtest: charges only incremental compute units above a tier boundary
+ok 1 - charges only incremental compute units above a tier boundary
+  ---
+  duration_ms: 0.926833
+  type: 'test'
+  ...
+# Subtest: computes storage and delivery as independent graduated schedules
+ok 2 - computes storage and delivery as independent graduated schedules
+  ---
+  duration_ms: 0.474833
+  type: 'test'
+  ...
+# Subtest: applies exact volume thresholds and rounds once in integer cents
+ok 3 - applies exact volume thresholds and rounds once in integer cents
+  ---
+  duration_ms: 0.190833
+  type: 'test'
+  ...
+# Subtest: applies annual savings after recurring volume savings
+ok 4 - applies annual savings after recurring volume savings
+  ---
+  duration_ms: 0.228334
+  type: 'test'
+  ...
+# Subtest: returns a serializable quote that cannot mutate stored pricing
+ok 5 - returns a serializable quote that cannot mutate stored pricing
+  ---
+  duration_ms: 0.385625
+  type: 'test'
+  ...
+# Subtest: rejects unsafe units and billing values
+ok 6 - rejects unsafe units and billing values
+  ---
+  duration_ms: 0.09825
+  type: 'test'
+  ...
+# Subtest: keeps the maximum annual total consistent with its displayed components
+ok 7 - keeps the maximum annual total consistent with its displayed components
+  ---
+  duration_ms: 0.123791
+  type: 'test'
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 54.154208

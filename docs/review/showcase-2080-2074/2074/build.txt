@@ -1,0 +1,14 @@
+
+> carrers-frontend@0.0.0 build
+> tsc -b && vite build
+
+vite v8.2.1 building client environment for production...
+[2K
+transforming...✓ 1818 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.86 kB │ gzip:   0.50 kB
+dist/assets/index-lWfR4YbS.css   62.43 kB │ gzip:  10.75 kB
+dist/assets/index-DONTpAvL.js   359.68 kB │ gzip: 107.07 kB
+
+✓ built in 1.25s
