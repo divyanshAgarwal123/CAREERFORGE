@@ -1,0 +1,21 @@
+✔ empty filter rules out queries with zero theoretical probability (0.8595ms)
+✔ all inserted corpus members survive collisions without false negatives (1.83575ms)
+✔ duplicate inserts reuse positions without clearing bits (0.855458ms)
+✔ hash positions are bounded and distinct for every supported hash count (0.262417ms)
+✔ UTF-8 strings preserve case, whitespace and canonical form (0.120125ms)
+✔ invalid inserts and probes leave the entire state intact (0.4575ms)
+✔ configuration is validated and cannot be changed after construction (0.132208ms)
+✔ snapshot and diagnostic arrays cannot corrupt internal membership (0.093ms)
+✔ 32 insertions match an independently calculated probability reference (0.360208ms)
+✔ probability rises monotonically through saturation and remains finite (1.203542ms)
+✔ deterministic absent-query corpus has fewer than 3 percent false positives (7.092083ms)
+✔ independent sequential-key corpus has no empty or overloaded first-hash bucket (4.76875ms)
+✔ bounded insertion count rejects overflow without mutating state (3.855ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 108.54825

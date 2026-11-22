@@ -16,7 +16,7 @@ The page deliberately runs local mock request functions, not real HTTP calls or 
 
 ## Native acceptance and boundaries
 
-Both normal Node22 builds and scoped oxlint pass. All four development/production browser reports pass. Bloom checks use actual keyboard forms/bit updates, the false-positive example, invalid-input retention, Unicode and motion preferences. Circuit checks use real browser timers and native buttons/double-clicks for threshold/open rejection, single half-open trial, failed-trial1600ms cooldown, restart, recovery and timeout retention. The pagehide/pageshow persisted events are explicitly injected lifecycle fixtures; no actual back-forward-cache navigation acceptance is claimed. Service outcomes are labeled local simulations. No page/resource failures or fetch/XHR were observed.
+Both normal Node22 builds and scoped oxlint pass. Exact test, lint and build receipts are attached as per-issue .txt files. All four development/production browser reports pass. Bloom checks use actual keyboard forms/bit updates, the false-positive example, invalid-input retention, Unicode and motion preferences. Circuit checks use real browser timers and native buttons/double-clicks for threshold/open rejection, single half-open trial, failed-trial1600ms cooldown, restart, recovery and timeout retention. The pagehide/pageshow persisted events are explicitly injected lifecycle fixtures; no actual back-forward-cache navigation acceptance is claimed. Service outcomes are labeled local simulations. No page/resource failures or fetch/XHR were observed.
 
 Desktop and mobile screenshots for both modules were visually reviewed; all1360/760/390/320px layouts have no horizontal overflow. Local validation, hosted CI, review, merge and official credit are separate states. The upstream auto-merge workflow was removed in2909; this evidence does not imply approval or merge.
 
@@ -30,7 +30,7 @@ npm run build
 npm run dev -- --host 127.0.0.1 --port 5432 --strictPort
 ```
 
-Use the normal spaced CLI flags: --host 127.0.0.1 --port 5432 --strictPort. After stopping development, use npm run preview with the same host/port flags for production. Install Playwright outside the source repository; point PLAYWRIGHT_MODULE to its importable entry. Chrome defaults to the macOS installed Chrome binary; CHROME_PATH can override it.
+After stopping development, use npm run preview with the same host/port flags for production. Install Playwright outside the source repository; point PLAYWRIGHT_MODULE to its importable entry. Chrome defaults to the macOS installed Chrome binary; CHROME_PATH can override it.
 
 ```sh
 BASE=http://127.0.0.1:5432 FOLDER=agency-studio FEATURE=bloom-filter OUT=/tmp/bloom-proof PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.mjs node browser-harness.mjs

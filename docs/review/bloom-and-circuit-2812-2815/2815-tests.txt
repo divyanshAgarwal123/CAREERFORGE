@@ -1,0 +1,24 @@
+✔ validates thresholds, durations, clock and function inputs (1.884959ms)
+✔ closed requests return real function values and pass an AbortSignal (0.356958ms)
+✔ successful closed requests reset consecutive rather than lifetime failures (0.339542ms)
+✔ threshold breach opens circuit and blocked calls never execute (0.628166ms)
+✔ one half-open trial is admitted and a successful trial resets backoff (0.233583ms)
+✔ failed half-open trials double cooldown up to its cap (0.399542ms)
+✔ request timeouts abort callbacks and release admission state (12.420083ms)
+✔ old uncooperative success cannot close a circuit tripped by another request (0.26275ms)
+✔ old failure cannot reopen a circuit after a newer successful recovery (0.204583ms)
+✔ manual trip is idempotent while open (0.094625ms)
+✔ cooldown restart cannot bypass open state or erase exponential history (0.16775ms)
+✔ disposal cancels in-flight work and prevents all future dispatches (0.110708ms)
+✔ snapshot event records are independent (0.077541ms)
+✔ trip before the dispatch microtask prevents the callback from starting (0.081334ms)
+✔ concurrent admission has a bounded local ceiling (1.204625ms)
+✔ event telemetry retains only the latest fifty events (0.282292ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 100.705083
