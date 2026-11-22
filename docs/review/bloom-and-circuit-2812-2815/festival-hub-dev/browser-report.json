@@ -1,0 +1,20 @@
+{
+  "base": "http://127.0.0.1:5434",
+  "folder": "festival-hub",
+  "feature": "circuit-breaker",
+  "errors": [],
+  "failed": [],
+  "badResources": [],
+  "checks": [
+    "Real local asynchronous120ms outcomes/300ms timeout; consecutive threshold; open admission block; native double-click single recovery probe; failed trial1600ms cooldown; restart cannot bypass; recovery resets800ms; actual timeout abort/active0/last-value retention; reset and invalid cooldown handling",
+    "1360/760/390/320px without overflow; actual local HTML/CSS/module resources; no page/resource failures or fetch/XHR; existing index link resolves"
+  ],
+  "widths": [
+    1360,
+    760,
+    390,
+    320
+  ],
+  "fixtureDisclosure": "Service calls are intentionally local simulation functions, not real HTTP traffic. Controls, cooldown waits, request deadlines and aborts use real browser timers. pagehide/pageshow persisted events are explicit lifecycle fixtures; no claim of an actual browser-cache navigation test.",
+  "passed": true
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "issue": 2812,
+    "folder": "agency-studio",
+    "feature": "bloom-filter",
+    "head": "241c1f1acdea43301135208b28d6503aaeb024db",
+    "base": "e2e3f40c7cbdab9ec2024241b871ff8db931d102",
+    "branch": "codex/nsoc-engine-2812"
+  },
+  {
+    "issue": 2815,
+    "folder": "festival-hub",
+    "feature": "circuit-breaker",
+    "head": "9c00e9cae91a6623f3982a18240c9c5092a9f88d",
+    "base": "e2e3f40c7cbdab9ec2024241b871ff8db931d102",
+    "branch": "codex/nsoc-engine-2815"
+  }
+]

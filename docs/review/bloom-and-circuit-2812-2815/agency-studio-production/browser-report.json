@@ -1,0 +1,21 @@
+{
+  "base": "http://127.0.0.1:5433",
+  "folder": "agency-studio",
+  "feature": "bloom-filter",
+  "errors": [],
+  "failed": [],
+  "badResources": [],
+  "checks": [
+    "Native Enter insert/probe;256 actual bit cells; inserted strings remain possible members;32 samples match independent2.396865% reference; actual false positive absent from demo oracle; reinsertion reuses4 bits; empty input retains state; Unicode recovery; animation/reduced motion",
+    "1360/760/390/320px without overflow; actual local HTML/CSS/module resources; no page/resource failures or fetch/XHR; existing index link resolves"
+  ],
+  "widths": [
+    1360,
+    760,
+    390,
+    320
+  ],
+  "falsePositiveExample": "absent-42",
+  "fixtureDisclosure": "Normal input, bit operations and false-positive observation are native. The deterministic query candidate is found using the shipped hash model; its absence from the separate sample list is checked independently. Theoretical probability assumes uniform independent hashing and is not a universal guarantee.",
+  "passed": true
+}
