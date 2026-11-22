@@ -1,0 +1,50 @@
+{
+  "base": "http://127.0.0.1:5432",
+  "passed": true,
+  "checks": [
+    "Default 7×4 matrix, masks and inherited grant controls",
+    "Native assignment, checkbox Space grant/revoke and focus retention",
+    "Unprivileged role escalation and policy edits rejected with visible retention",
+    "Real policy drawer malformed/prototype/HTML/cycle rejection, unchanged state and wildcard retry",
+    "Known all-bits mask examples, overflow rejection, native Escape/focus return",
+    "Four responsive widths, actual keyboard table scrolling, reduced motion and reload reset"
+  ],
+  "errors": [],
+  "failed": [],
+  "external": [],
+  "appDataRequests": [],
+  "widths": [
+    {
+      "width": 1360,
+      "bodyOverflow": false,
+      "table": {
+        "width": 1070,
+        "content": 1070
+      }
+    },
+    {
+      "width": 760,
+      "bodyOverflow": false,
+      "table": {
+        "width": 690,
+        "content": 690
+      }
+    },
+    {
+      "width": 390,
+      "bodyOverflow": false,
+      "table": {
+        "width": 352,
+        "content": 620
+      }
+    },
+    {
+      "width": 320,
+      "bodyOverflow": false,
+      "table": {
+        "width": 282,
+        "content": 620
+      }
+    }
+  ]
+}

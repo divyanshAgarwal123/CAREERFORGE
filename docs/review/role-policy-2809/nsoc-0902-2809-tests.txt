@@ -1,0 +1,25 @@
+✔ default transitive inheritance grants known actions only (1.006583ms)
+✔ wildcards expand against the exact allow-list and namespace boundary (0.324167ms)
+✔ all 128 masks reconcile with an independent action-set reference (1.28425ms)
+✔ unknown or malformed permission checks fail closed (0.097667ms)
+✔ assignment requires an explicitly authorized current actor (0.950291ms)
+✔ proposed grants cannot authorize their own policy mutation (0.175042ms)
+✔ legitimate delegation can be granted and revoked by the owner (0.145834ms)
+✔ removing direct permissions preserves inherited grants (0.557958ms)
+✔ parent changes immediately update descendants without stale cached grants (0.124042ms)
+✔ self cycles, transitive cycles and unknown parents retain old state (0.307ms)
+✔ invalid patterns and duplicate or oversized lists are rejected atomically (0.254417ms)
+✔ policy getters, prototypes, sparse arrays and extra fields are rejected (0.171792ms)
+✔ input and returned snapshots cannot mutate active permissions (0.074542ms)
+✔ bootstrap identity and policy cannot be replaced (0.06675ms)
+✔ invalid identities and role names preserve state (0.181667ms)
+✔ user capacity is bounded and existing users can still change roles (0.457334ms)
+✔ unknown mask bits, signed/overflow masks and coercions are rejected (0.137959ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 100.628125
