@@ -1,0 +1,110 @@
+{
+  "base": "http://127.0.0.1:5435",
+  "folder": "real-estate-luxe",
+  "errors": [],
+  "failed": [],
+  "checks": [
+    "Native keyboard sliders and radio billing independently match known monthly35400/annual361080 subunits, exact annual discount63720, reset and existing index link",
+    "Native End keys reach exact maximum annual3442500; gradient tracks progress12% to0% and100%, with a gradient track CSS rule; actual slider appearance captured in reviewed screenshots",
+    "Actual price-change animation starts with motion allowed and is cancelled/absent with reduced motion",
+    "Zero usage has finite neutral breakdown; explicit invalid-quantity fixture retains previous quote and recovers",
+    "Two actual JSON downloads decoded equal current quote; explicit URL-allocation failure retains estimate and retries; all Blob URLs and temporary anchors cleaned",
+    "1360/760/390/320px with no overflow, reduced motion, native quote disclosure, zero page/resource failures and zero fetch/XHR"
+  ],
+  "widths": [
+    1360,
+    760,
+    390,
+    320
+  ],
+  "fixtureDisclosure": "Normal controls, calculations and Blob downloads are native. Invalid quantity and URL-allocation denial are explicitly injected failure fixtures. All rates are fictional demo credits; no real provider service is called.",
+  "quote": {
+    "model": "demo-graduated-v1",
+    "unit": "fictional demo credits",
+    "billing": "monthly",
+    "months": 1,
+    "resources": {
+      "compute": 120,
+      "storage": 600,
+      "bandwidth": 1200
+    },
+    "lines": [
+      {
+        "resource": "compute",
+        "units": 120,
+        "segments": [
+          {
+            "tier": 0,
+            "units": 100,
+            "baseCents": 20000,
+            "discountBps": 0,
+            "discountCents": 0,
+            "netCents": 20000
+          },
+          {
+            "tier": 1,
+            "units": 20,
+            "baseCents": 4000,
+            "discountBps": 1000,
+            "discountCents": 400,
+            "netCents": 3600
+          }
+        ],
+        "netCents": 23600
+      },
+      {
+        "resource": "storage",
+        "units": 600,
+        "segments": [
+          {
+            "tier": 0,
+            "units": 500,
+            "baseCents": 5000,
+            "discountBps": 0,
+            "discountCents": 0,
+            "netCents": 5000
+          },
+          {
+            "tier": 1,
+            "units": 100,
+            "baseCents": 1000,
+            "discountBps": 1000,
+            "discountCents": 100,
+            "netCents": 900
+          }
+        ],
+        "netCents": 5900
+      },
+      {
+        "resource": "bandwidth",
+        "units": 1200,
+        "segments": [
+          {
+            "tier": 0,
+            "units": 1000,
+            "baseCents": 5000,
+            "discountBps": 0,
+            "discountCents": 0,
+            "netCents": 5000
+          },
+          {
+            "tier": 1,
+            "units": 200,
+            "baseCents": 1000,
+            "discountBps": 1000,
+            "discountCents": 100,
+            "netCents": 900
+          }
+        ],
+        "netCents": 5900
+      }
+    ],
+    "monthlySubtotalCents": 35400,
+    "periodSubtotalCents": 35400,
+    "annualDiscountBps": 0,
+    "annualDiscountCents": 0,
+    "totalCents": 35400,
+    "disclosure": "Illustrative rates only. No provider quote, taxes, provisioning or payment."
+  },
+  "passed": true
+}

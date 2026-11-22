@@ -1,0 +1,88 @@
+{
+  "model": "demo-graduated-v1",
+  "unit": "fictional demo credits",
+  "billing": "monthly",
+  "months": 1,
+  "resources": {
+    "compute": 120,
+    "storage": 600,
+    "bandwidth": 1200
+  },
+  "lines": [
+    {
+      "resource": "compute",
+      "units": 120,
+      "segments": [
+        {
+          "tier": 0,
+          "units": 100,
+          "baseCents": 20000,
+          "discountBps": 0,
+          "discountCents": 0,
+          "netCents": 20000
+        },
+        {
+          "tier": 1,
+          "units": 20,
+          "baseCents": 4000,
+          "discountBps": 1000,
+          "discountCents": 400,
+          "netCents": 3600
+        }
+      ],
+      "netCents": 23600
+    },
+    {
+      "resource": "storage",
+      "units": 600,
+      "segments": [
+        {
+          "tier": 0,
+          "units": 500,
+          "baseCents": 5000,
+          "discountBps": 0,
+          "discountCents": 0,
+          "netCents": 5000
+        },
+        {
+          "tier": 1,
+          "units": 100,
+          "baseCents": 1000,
+          "discountBps": 1000,
+          "discountCents": 100,
+          "netCents": 900
+        }
+      ],
+      "netCents": 5900
+    },
+    {
+      "resource": "bandwidth",
+      "units": 1200,
+      "segments": [
+        {
+          "tier": 0,
+          "units": 1000,
+          "baseCents": 5000,
+          "discountBps": 0,
+          "discountCents": 0,
+          "netCents": 5000
+        },
+        {
+          "tier": 1,
+          "units": 200,
+          "baseCents": 1000,
+          "discountBps": 1000,
+          "discountCents": 100,
+          "netCents": 900
+        }
+      ],
+      "netCents": 5900
+    }
+  ],
+  "monthlySubtotalCents": 35400,
+  "periodSubtotalCents": 35400,
+  "annualDiscountBps": 0,
+  "annualDiscountCents": 0,
+  "totalCents": 35400,
+  "disclosure": "Illustrative rates only. No provider quote, taxes, provisioning or payment."
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "issue": 2044,
+    "folder": "developer-portfolio",
+    "head": "56cd96d490f05d5501d1a13a8e0cb330c5b34fa6",
+    "base": "56aa29bd3baa7882fc9c387f44b17a43aad90599",
+    "branch": "codex/nsoc-cost-2044",
+    "kind": "cost"
+  },
+  {
+    "issue": 2048,
+    "folder": "docs-portal",
+    "head": "0a158921e9f29f471663b85af68b9253db6c61ab",
+    "base": "56aa29bd3baa7882fc9c387f44b17a43aad90599",
+    "branch": "codex/nsoc-cost-2048",
+    "kind": "cost"
+  },
+  {
+    "issue": 2052,
+    "folder": "culinary-bistro",
+    "head": "bc2c5a3c6a9c67608955533d99541e377ac16515",
+    "base": "56aa29bd3baa7882fc9c387f44b17a43aad90599",
+    "branch": "codex/nsoc-cost-2052",
+    "kind": "cost"
+  },
+  {
+    "issue": 2056,
+    "folder": "real-estate-luxe",
+    "head": "37ab89a8e7943669eb826e91989f8dd628a9bb54",
+    "base": "56aa29bd3baa7882fc9c387f44b17a43aad90599",
+    "branch": "codex/nsoc-cost-2056",
+    "kind": "cost"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "2044": {
+    "cost-optimizer.html": "91426c0ec71c68c62c13e2b27db0f54db700f2f9247bb6bda21b9c20865d87f7",
+    "cost-optimizer.css": "34e21b0870e80b6f22efe20dd363750ed8af9820c5cbbc1c9d215600143ee654",
+    "cost-optimizer.js": "6055d8d56f1d06db08f242e5e0b938e579d421fb597063f550ead664fa9331f4",
+    "cost-optimizer.test.mjs": "6f86453634c1c67f08e117ea36eab67ccc9fd48d8ef8b3f13d7cc66cd183b6e0"
+  },
+  "2048": {
+    "cost-optimizer.html": "0d77674680ec843ed0fd7502ecded2ea5d65622c4673f6d2ec15d4725def8bfd",
+    "cost-optimizer.css": "34e21b0870e80b6f22efe20dd363750ed8af9820c5cbbc1c9d215600143ee654",
+    "cost-optimizer.js": "c12fd84d7f54b8114b86af8b316c62f6a3e329d572c187ed2fd50c6c7f8abf40",
+    "cost-optimizer.test.mjs": "6be8299aad273fd818b8efd3d01de1040da6c60f9f30c50d9147438e364799fb"
+  },
+  "2052": {
+    "cost-optimizer.html": "d2f9cfbd2b35a25c7266f734ad18d9a4cd6547e009beb992e85f3ecfd6c06519",
+    "cost-optimizer.css": "34e21b0870e80b6f22efe20dd363750ed8af9820c5cbbc1c9d215600143ee654",
+    "cost-optimizer.js": "c8458eee3b50f60fc95dfcb5758ab80f6d6fc89dbfb9be32574bf81437904017",
+    "cost-optimizer.test.mjs": "5c4c8f16d391e03d8c230a690573abc78cafdac5cf2c35362c1b1e7184db9b33"
+  },
+  "2056": {
+    "cost-optimizer.html": "028eb3001fa1555846077f94795a4c9c71d3aeccd10431e2d7badd2182e85f85",
+    "cost-optimizer.css": "34e21b0870e80b6f22efe20dd363750ed8af9820c5cbbc1c9d215600143ee654",
+    "cost-optimizer.js": "840ff037fb3828d727e8949b55816e08e5d8e6adf08cf3aa4f38a9639fa9e8fc",
+    "cost-optimizer.test.mjs": "230c4dc9559b8de2b92c21aaa613dcb5297ce76784d0db78b782994f257def87"
+  }
+}
