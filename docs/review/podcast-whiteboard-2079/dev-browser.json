@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "widths": [
+    1360,
+    760,
+    390,
+    320
+  ],
+  "errors": [],
+  "checks": [
+    "Real pointer pen with smoothing",
+    "Rectangle width/color",
+    "Keyboard line and cancel",
+    "Object erasing",
+    "Undo/redo and clear recovery",
+    "Actual editable SVG download",
+    "Mobile touch",
+    "Reload reset"
+  ]
+}

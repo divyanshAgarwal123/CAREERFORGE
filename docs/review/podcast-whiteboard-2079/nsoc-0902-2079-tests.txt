@@ -1,0 +1,15 @@
+✔ interpolates a sparse pen move and preserves its final endpoint (1.484167ms)
+✔ renders reversed rectangles, clamped lines and single-point marks (0.151583ms)
+✔ erases several objects in a single undo step and clears redo after a new edit (0.161667ms)
+✔ bounds undo to 50 edits and the scene to 100 objects (0.613042ms)
+✔ keeps long pen paths bounded through the final move (0.410584ms)
+✔ exports stable editable SVG and restores the exact scene after undoing clear (0.115917ms)
+✔ ignores cancelled or empty strokes and rejects invalid settings and coordinates (0.105375ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 86.981084
