@@ -1,0 +1,14 @@
+{
+  "2040": {
+    "cost-optimizer.html": "c66c31357fea4e056570fbdc739a0aa0d2a1279ee991a6d2882cb0ad258181a3",
+    "cost-optimizer.css": "34e21b0870e80b6f22efe20dd363750ed8af9820c5cbbc1c9d215600143ee654",
+    "cost-optimizer.js": "f715d0fed3b57e2a2a631ea7c1cd3e4cc372393352d7bc0db19c9d00294f18ab",
+    "cost-optimizer.test.mjs": "223707be1405f26b0abcc482dbcd126f1acc4f5bf0598550e6029df266e84025"
+  },
+  "2032": {
+    "cost-optimizer.html": "d4e633883f301ed6319cb90c1940cd30dd110076c03cd2316710fd9ba87ab625",
+    "cost-optimizer.css": "34e21b0870e80b6f22efe20dd363750ed8af9820c5cbbc1c9d215600143ee654",
+    "cost-optimizer.js": "1c56134090fe8322d5c67238ae3d8692c56ac0d561f7b0d59d8f9ff0c815d9fd",
+    "cost-optimizer.test.mjs": "0ddb5854d3d160c8ddff908eb1fb244e9ef970701ff53333d3946e276a6ed36b"
+  }
+}

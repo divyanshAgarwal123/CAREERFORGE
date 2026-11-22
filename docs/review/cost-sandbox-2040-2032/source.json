@@ -1,0 +1,18 @@
+[
+  {
+    "issue": 2040,
+    "folder": "saas-launchpad",
+    "head": "c22e876a4ec981da3fbd5fe9eba7bab9880dd336",
+    "base": "d5478b8b1497d36d49f6dc6aa8ac0892c41064ee",
+    "branch": "codex/nsoc-cost-2040",
+    "kind": "cost"
+  },
+  {
+    "issue": 2032,
+    "folder": "agency-studio",
+    "head": "f661c68ef5a87106a947c5cadb04203937f2637e",
+    "base": "d5478b8b1497d36d49f6dc6aa8ac0892c41064ee",
+    "branch": "codex/nsoc-cost-2032",
+    "kind": "cost"
+  }
+]
