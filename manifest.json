@@ -1,0 +1,12 @@
+{
+  "sourceCommit": "7b92a97cb4178cc1f2b95d0f7101063966ca46cd",
+  "issue": "https://github.com/Pratyush-Panda-2006/CAREERFORGE/issues/1182",
+  "sha256": {
+    "browser-build.json": "ed2c639444e5ec2c70bcf8f5ed86e6eeab07b481ad92fd10da60b05120e3b13f",
+    "browser-dev.json": "ed2c639444e5ec2c70bcf8f5ed86e6eeab07b481ad92fd10da60b05120e3b13f",
+    "career1182-build.log": "8ad0b92746eed38bf1f90f02bee51439a7b82ec82bdd034e2872b7d920bd30d6",
+    "career1182-unit.log": "b55c31b6b6c36557db51fb1e52e8ed5ef4f1117c0634d65d410fb499eee52538",
+    "quests-build-1280.png": "be3936565e22cc5155efb7a2593ec8382c52d46b64454f6893d58758bea6966f",
+    "quests-build-390.png": "dacbb9a4ded685ca4f229e1314ac661d465e327efb816bb9c3dda90a68ab06db"
+  }
+}

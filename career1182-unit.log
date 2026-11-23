@@ -1,0 +1,40 @@
+TAP version 13
+# Subtest: caps progress per quest and refuses invalid changes
+ok 1 - caps progress per quest and refuses invalid changes
+  ---
+  duration_ms: 0.660209
+  type: 'test'
+  ...
+# Subtest: calculates levels at increasing thresholds
+ok 2 - calculates levels at increasing thresholds
+  ---
+  duration_ms: 0.412583
+  type: 'test'
+  ...
+# Subtest: emits milestones only when crossing thresholds
+ok 3 - emits milestones only when crossing thresholds
+  ---
+  duration_ms: 0.226
+  type: 'test'
+  ...
+# Subtest: restores bounded progress and keeps the next unlock fresh
+ok 4 - restores bounded progress and keeps the next unlock fresh
+  ---
+  duration_ms: 0.656917
+  type: 'test'
+  ...
+# Subtest: continues after invalid storage or a failed write
+ok 5 - continues after invalid storage or a failed write
+  ---
+  duration_ms: 0.131958
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 58.72775
