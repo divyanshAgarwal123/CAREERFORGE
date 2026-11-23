@@ -1,0 +1,54 @@
+[
+  {
+    "mode": "dev",
+    "width": 1280,
+    "keyboard": "pass",
+    "subscriptionControls": "pass",
+    "queueReplies": "pass",
+    "recoveredAutomatically": true,
+    "attempts": 4,
+    "dropped": 7,
+    "reducedMotion": "pass",
+    "consoleErrors": [],
+    "axe": "not run"
+  },
+  {
+    "mode": "dev",
+    "width": 390,
+    "keyboard": "pass",
+    "subscriptionControls": "pass",
+    "queueReplies": "pass",
+    "recoveredAutomatically": true,
+    "attempts": 4,
+    "dropped": 7,
+    "reducedMotion": "pass",
+    "consoleErrors": [],
+    "axe": "not run"
+  },
+  {
+    "mode": "preview",
+    "width": 1280,
+    "keyboard": "pass",
+    "subscriptionControls": "pass",
+    "queueReplies": "pass",
+    "recoveredAutomatically": true,
+    "attempts": 4,
+    "dropped": 7,
+    "reducedMotion": "pass",
+    "consoleErrors": [],
+    "axe": "zero violations in selected WCAG rules"
+  },
+  {
+    "mode": "preview",
+    "width": 390,
+    "keyboard": "pass",
+    "subscriptionControls": "pass",
+    "queueReplies": "pass",
+    "recoveredAutomatically": true,
+    "attempts": 4,
+    "dropped": 7,
+    "reducedMotion": "pass",
+    "consoleErrors": [],
+    "axe": "zero violations in selected WCAG rules"
+  }
+]

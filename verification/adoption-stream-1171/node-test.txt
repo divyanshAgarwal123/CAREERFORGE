@@ -1,0 +1,64 @@
+TAP version 13
+# Subtest: routes adoption and foster events only to their subscribed handlers
+ok 1 - routes adoption and foster events only to their subscribed handlers
+  ---
+  duration_ms: 1.350875
+  type: 'test'
+  ...
+# Subtest: records the simulated round trip only after a reply arrives
+ok 2 - records the simulated round trip only after a reply arrives
+  ---
+  duration_ms: 0.7935
+  type: 'test'
+  ...
+# Subtest: an old unsubscribe handle leaves later subscribers intact
+ok 3 - an old unsubscribe handle leaves later subscribers intact
+  ---
+  duration_ms: 0.113042
+  type: 'test'
+  ...
+# Subtest: a dropout cancels a heartbeat reply that is already in flight
+ok 4 - a dropout cancels a heartbeat reply that is already in flight
+  ---
+  duration_ms: 0.079709
+  type: 'test'
+  ...
+# Subtest: times out a heartbeat and retries with capped exponential backoff
+ok 5 - times out a heartbeat and retries with capped exponential backoff
+  ---
+  duration_ms: 0.152875
+  type: 'test'
+  ...
+# Subtest: a short outage can recover before the heartbeat deadline
+ok 6 - a short outage can recover before the heartbeat deadline
+  ---
+  duration_ms: 0.051458
+  type: 'test'
+  ...
+# Subtest: dropped packets are counted without reaching a subscription
+ok 7 - dropped packets are counted without reaching a subscription
+  ---
+  duration_ms: 0.106333
+  type: 'test'
+  ...
+# Subtest: reports actual local topic counts through a correlated summary reply
+ok 8 - reports actual local topic counts through a correlated summary reply
+  ---
+  duration_ms: 0.088209
+  type: 'test'
+  ...
+# Subtest: manual disconnect cancels retries and resets latency
+ok 9 - manual disconnect cancels retries and resets latency
+  ---
+  duration_ms: 0.278833
+  type: 'test'
+  ...
+1..9
+# tests 9
+# suites 0
+# pass 9
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 76.934209
