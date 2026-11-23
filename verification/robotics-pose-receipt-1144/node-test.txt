@@ -1,0 +1,46 @@
+TAP version 13
+# Subtest: uses the existing arm model for the joint and end position
+ok 1 - uses the existing arm model for the joint and end position
+  ---
+  duration_ms: 1.027292
+  type: 'test'
+  ...
+# Subtest: normalizes out-of-range angles and keeps the pose code reproducible
+ok 2 - normalizes out-of-range angles and keeps the pose code reproducible
+  ---
+  duration_ms: 0.174083
+  type: 'test'
+  ...
+# Subtest: keeps the arm geometry within the diagram at extreme and folded angles
+ok 3 - keeps the arm geometry within the diagram at extreme and folded angles
+  ---
+  duration_ms: 0.895708
+  type: 'test'
+  ...
+# Subtest: adds start and stop guards and even parity per hex digit
+ok 4 - adds start and stop guards and even parity per hex digit
+  ---
+  duration_ms: 0.344083
+  type: 'test'
+  ...
+# Subtest: draws a barcode within its expected canvas allocation
+ok 5 - draws a barcode within its expected canvas allocation
+  ---
+  duration_ms: 0.176875
+  type: 'test'
+  ...
+# Subtest: requests a PNG data URL and rejects an unavailable encoding
+ok 6 - requests a PNG data URL and rejects an unavailable encoding
+  ---
+  duration_ms: 0.079083
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 51.446666

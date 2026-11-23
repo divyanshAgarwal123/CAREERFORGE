@@ -1,0 +1,16 @@
+{
+  "issue": 1144,
+  "sourceHead": "88ab974f11b07268755b31baa6b160f9151683a2",
+  "nodeTests": 6,
+  "build": "passed",
+  "scopedOxlint": "passed",
+  "files": {
+    "browser-results.json": "07b1b4493845dedf22f3995f854e8237d06547aa1d4fdbd98629dcd6a325cdcb",
+    "build.txt": "b7b54d8088e2f9af9a265797df4abae76aef388ee77c981be34728387221992b",
+    "lint.json": "3af211b5a8fbfe43299a05e0fe42d6903128200cf90c009b3bae55cd95f83bb3",
+    "node-test.txt": "1e06119e203a5999195a671421ec4cb1e169b7dc2705f39b450f38969fa4ee91",
+    "receipt-1280.png": "1d5f0d7bdfa2e789e4db69f089bbece4a4d6d625a6a3a379c9a47511e8e70c78",
+    "receipt-390.png": "07f01729656cb2080bbb6d7653bac411209967c9a75a8ceeaace0fd1db116d00",
+    "sample-receipt.png": "277ba2d43b66f0fc4d49b857d5a7b1c09139df9cb70454e2b807fb7ab86b20d2"
+  }
+}
