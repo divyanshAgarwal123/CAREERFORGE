@@ -1,0 +1,52 @@
+TAP version 13
+# Subtest: polar conversion puts the origin at the configured center
+ok 1 - polar conversion puts the origin at the configured center
+  ---
+  duration_ms: 1.09425
+  type: 'test'
+  ...
+# Subtest: polygon starts at twelve o’clock and normalizes point strings
+ok 2 - polygon starts at twelve o’clock and normalizes point strings
+  ---
+  duration_ms: 0.162875
+  type: 'test'
+  ...
+# Subtest: negative, excessive and nonfinite metrics stay inside the grid
+ok 3 - negative, excessive and nonfinite metrics stay inside the grid
+  ---
+  duration_ms: 0.061542
+  type: 'test'
+  ...
+# Subtest: full hexagon area matches the closed-form area
+ok 4 - full hexagon area matches the closed-form area
+  ---
+  duration_ms: 0.617083
+  type: 'test'
+  ...
+# Subtest: a half-radius profile takes one quarter of the full polygon area
+ok 5 - a half-radius profile takes one quarter of the full polygon area
+  ---
+  duration_ms: 0.11875
+  type: 'test'
+  ...
+# Subtest: offsetting the chart center leaves the area unchanged
+ok 6 - offsetting the chart center leaves the area unchanged
+  ---
+  duration_ms: 0.051875
+  type: 'test'
+  ...
+# Subtest: degenerate charts have zero area
+ok 7 - degenerate charts have zero area
+  ---
+  duration_ms: 0.096834
+  type: 'test'
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 52.271

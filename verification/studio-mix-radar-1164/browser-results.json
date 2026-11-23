@@ -1,0 +1,46 @@
+[
+  {
+    "mode": "dev",
+    "width": 1280,
+    "controls": "pass",
+    "profileToggles": "pass",
+    "vertexFocus": "pass",
+    "areaIncreasedFrom": 38.6,
+    "areaIncreasedTo": 45.6,
+    "consoleErrors": [],
+    "axe": "not run"
+  },
+  {
+    "mode": "dev",
+    "width": 390,
+    "controls": "pass",
+    "profileToggles": "pass",
+    "vertexFocus": "pass",
+    "areaIncreasedFrom": 38.6,
+    "areaIncreasedTo": 45.6,
+    "consoleErrors": [],
+    "axe": "not run"
+  },
+  {
+    "mode": "preview",
+    "width": 1280,
+    "controls": "pass",
+    "profileToggles": "pass",
+    "vertexFocus": "pass",
+    "areaIncreasedFrom": 38.6,
+    "areaIncreasedTo": 45.6,
+    "consoleErrors": [],
+    "axe": "zero in selected WCAG rules"
+  },
+  {
+    "mode": "preview",
+    "width": 390,
+    "controls": "pass",
+    "profileToggles": "pass",
+    "vertexFocus": "pass",
+    "areaIncreasedFrom": 38.6,
+    "areaIncreasedTo": 45.6,
+    "consoleErrors": [],
+    "axe": "zero in selected WCAG rules"
+  }
+]
