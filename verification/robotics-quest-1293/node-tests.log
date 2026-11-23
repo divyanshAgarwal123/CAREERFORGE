@@ -1,0 +1,64 @@
+TAP version 13
+# Subtest: coordinates use the showcase's arm math
+ok 1 - coordinates use the showcase's arm math
+  ---
+  duration_ms: 0.656083
+  type: 'test'
+  ...
+# Subtest: all four exercise targets accept their intended angles
+ok 2 - all four exercise targets accept their intended angles
+  ---
+  duration_ms: 0.171292
+  type: 'test'
+  ...
+# Subtest: invalid inputs and a missed pose don't qualify
+ok 3 - invalid inputs and a missed pose don't qualify
+  ---
+  duration_ms: 0.052125
+  type: 'test'
+  ...
+# Subtest: fresh users start at Level 1 and level thresholds are precise
+ok 4 - fresh users start at Level 1 and level thresholds are precise
+  ---
+  duration_ms: 0.121833
+  type: 'test'
+  ...
+# Subtest: four distinct completions dispatch the badge milestones once
+ok 5 - four distinct completions dispatch the badge milestones once
+  ---
+  duration_ms: 0.217125
+  type: 'test'
+  ...
+# Subtest: duplicate completions, unknown objectives and invalid amounts earn nothing
+ok 6 - duplicate completions, unknown objectives and invalid amounts earn nothing
+  ---
+  duration_ms: 0.115583
+  type: 'test'
+  ...
+# Subtest: restored achievements are filtered and not announced a second time
+ok 7 - restored achievements are filtered and not announced a second time
+  ---
+  duration_ms: 0.138959
+  type: 'test'
+  ...
+# Subtest: separate tabs can persist different completions without overwriting progress
+ok 8 - separate tabs can persist different completions without overwriting progress
+  ---
+  duration_ms: 0.078834
+  type: 'test'
+  ...
+# Subtest: corrupted or unavailable storage leaves the engine usable
+ok 9 - corrupted or unavailable storage leaves the engine usable
+  ---
+  duration_ms: 0.244709
+  type: 'test'
+  ...
+1..9
+# tests 9
+# suites 0
+# pass 9
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 72.003916

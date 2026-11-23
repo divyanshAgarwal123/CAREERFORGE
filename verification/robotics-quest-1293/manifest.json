@@ -1,0 +1,14 @@
+{
+  "sourceCommit": "1f56ea0dc4324c46e6482613278e5be3fb477844",
+  "parentCommit": "cb991ee17b7782297f936ab1eab285ac3686e35f",
+  "files": {
+    "desktop-initial.png": "991df7eaa49c8aceb1eb1e083091af4a8572e6b7e103668cf11e8f50d556dd73",
+    "mobile-complete.png": "dea219a8e31bcb0b7bf20656abb2216604c624755759acc23bcd520164819552",
+    "platinum.png": "7415d1997b0be246ec647d27da3b8f0d26979102edaafd086542877e290c14fc",
+    "development-results.json": "501e416f9f95db493974a0dc498a8140ed5ac3a7b6a750d033ccfda59454efdd",
+    "production-results.json": "76ea89c081e8c2c7cadf4c03eba10e176c29bf91299ed838962317139515843f",
+    "axe-results.json": "1335ab8aea3ef81c123f4cf6b36aa3c9c8d8507c9b76bc901305e16e8f537554",
+    "node-tests.log": "7ca121bcdc46b6adefdc4530412e46d67127a96a6440cd12da2bd80a088dffb8",
+    "build.log": "129bedabcfa2bae2ab20f46e4d783fa776b48c500c280b6ce6cc9b8c033989dc"
+  }
+}

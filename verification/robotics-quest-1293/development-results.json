@@ -1,0 +1,45 @@
+{
+  "mode": "development",
+  "evidence": [
+    {
+      "size": "desktop",
+      "width": 1280,
+      "keyboard": true,
+      "missedPose": true,
+      "duplicateBlocked": true,
+      "badgeOrder": [
+        "Bronze",
+        "Silver",
+        "Gold",
+        "Platinum"
+      ],
+      "reloadXp": 400,
+      "overflow": false,
+      "pageErrors": []
+    },
+    {
+      "size": "mobile",
+      "width": 390,
+      "keyboard": true,
+      "missedPose": true,
+      "duplicateBlocked": true,
+      "badgeOrder": [
+        "Bronze",
+        "Silver",
+        "Gold",
+        "Platinum"
+      ],
+      "reloadXp": 400,
+      "overflow": false,
+      "pageErrors": []
+    },
+    {
+      "independentTabs": true,
+      "combinedXp": 200
+    },
+    {
+      "blockedStorage": true,
+      "worksInMemory": true
+    }
+  ]
+}
