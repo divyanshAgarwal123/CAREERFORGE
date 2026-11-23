@@ -1,0 +1,89 @@
+TAP version 13
+# Subtest: stores independent state and returns clones
+ok 1 - stores independent state and returns clones
+  ---
+  duration_ms: 1.451125
+  type: 'test'
+  ...
+# Subtest: clamps step access and retains history when appending after a jump
+ok 2 - clamps step access and retains history when appending after a jump
+  ---
+  duration_ms: 0.509583
+  type: 'test'
+  ...
+# Subtest: diffs nested additions and removals, and treats arrays as ordered values
+ok 3 - diffs nested additions and removals, and treats arrays as ordered values
+  ---
+  duration_ms: 0.486708
+  type: 'test'
+  ...
+# Subtest: exports actual playback transitions and restores them in order
+ok 4 - exports actual playback transitions and restores them in order
+  ---
+  duration_ms: 2.261375
+  type: 'test'
+  ...
+# Subtest: invalid imports preserve the active replay
+ok 5 - invalid imports preserve the active replay
+  ---
+  duration_ms: 0.315084
+  type: 'test'
+  ...
+# Subtest: bounds snapshot depth, size, and history length
+ok 6 - bounds snapshot depth, size, and history length
+  ---
+  duration_ms: 1.844417
+  type: 'test'
+  ...
+# Subtest: StreamingCinemaHubFsmVisualizer
+    # Subtest: initializes with default IDLE_BROWSE state and playback states
+    ok 1 - initializes with default IDLE_BROWSE state and playback states
+      ---
+      duration_ms: 0.527
+      type: 'test'
+      ...
+    # Subtest: executes valid sequential transitions along cinema playback lifecycle
+    ok 2 - executes valid sequential transitions along cinema playback lifecycle
+      ---
+      duration_ms: 4.243709
+      type: 'test'
+      ...
+    # Subtest: rejects invalid transitions with error payload while protecting state
+    ok 3 - rejects invalid transitions with error payload while protecting state
+      ---
+      duration_ms: 0.655708
+      type: 'test'
+      ...
+    # Subtest: supports custom transition additions and cyclic execution
+    ok 4 - supports custom transition additions and cyclic execution
+      ---
+      duration_ms: 0.074167
+      type: 'test'
+      ...
+    # Subtest: exports valid Mermaid.js stateDiagram-v2 definition
+    ok 5 - exports valid Mermaid.js stateDiagram-v2 definition
+      ---
+      duration_ms: 0.079375
+      type: 'test'
+      ...
+    # Subtest: maintains history log and resets state reliably
+    ok 6 - maintains history log and resets state reliably
+      ---
+      duration_ms: 0.059958
+      type: 'test'
+      ...
+    1..6
+ok 7 - StreamingCinemaHubFsmVisualizer
+  ---
+  duration_ms: 6.297458
+  type: 'suite'
+  ...
+1..7
+# tests 12
+# suites 1
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 57.125917

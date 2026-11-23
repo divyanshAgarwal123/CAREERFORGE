@@ -1,0 +1,42 @@
+[
+  {
+    "mode": "dev",
+    "width": 390,
+    "preservedInvalidImport": true,
+    "downloadLength": 585,
+    "steps": 6,
+    "keyboardScrub": true,
+    "reloadedReplay": true,
+    "axeViolations": 0
+  },
+  {
+    "mode": "dev",
+    "width": 1280,
+    "preservedInvalidImport": true,
+    "downloadLength": 585,
+    "steps": 6,
+    "keyboardScrub": true,
+    "reloadedReplay": true,
+    "axeViolations": 0
+  },
+  {
+    "mode": "build",
+    "width": 390,
+    "preservedInvalidImport": true,
+    "downloadLength": 585,
+    "steps": 6,
+    "keyboardScrub": true,
+    "reloadedReplay": true,
+    "axeViolations": 0
+  },
+  {
+    "mode": "build",
+    "width": 1280,
+    "preservedInvalidImport": true,
+    "downloadLength": 585,
+    "steps": 6,
+    "keyboardScrub": true,
+    "reloadedReplay": true,
+    "axeViolations": 0
+  }
+]
