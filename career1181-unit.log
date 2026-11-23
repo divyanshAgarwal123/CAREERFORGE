@@ -1,0 +1,40 @@
+TAP version 13
+# Subtest: converts polar coordinates relative to the chart center
+ok 1 - converts polar coordinates relative to the chart center
+  ---
+  duration_ms: 0.826541
+  type: 'test'
+  ...
+# Subtest: places equally spaced axes starting from the top
+ok 2 - places equally spaced axes starting from the top
+  ---
+  duration_ms: 0.145375
+  type: 'test'
+  ...
+# Subtest: bounds scores and replaces invalid values with zero
+ok 3 - bounds scores and replaces invalid values with zero
+  ---
+  duration_ms: 0.131125
+  type: 'test'
+  ...
+# Subtest: computes the full diamond area and the square law for half-scale scores
+ok 4 - computes the full diamond area and the square law for half-scale scores
+  ---
+  duration_ms: 0.096375
+  type: 'test'
+  ...
+# Subtest: returns zero for too few points or collinear points
+ok 5 - returns zero for too few points or collinear points
+  ---
+  duration_ms: 0.154375
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 59.309958

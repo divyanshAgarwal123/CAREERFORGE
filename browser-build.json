@@ -1,0 +1,18 @@
+[
+  {
+    "width": 390,
+    "slider": 100,
+    "keyboardVertex": true,
+    "baselineToggle": true,
+    "areaChanged": true,
+    "axeViolations": 0
+  },
+  {
+    "width": 1280,
+    "slider": 100,
+    "keyboardVertex": true,
+    "baselineToggle": true,
+    "areaChanged": true,
+    "axeViolations": 0
+  }
+]
