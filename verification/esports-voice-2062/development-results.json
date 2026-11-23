@@ -1,0 +1,30 @@
+{
+  "mode": "dev",
+  "results": [
+    {
+      "width": 390,
+      "typedCommands": "pass",
+      "speechAdapterMock": "pass",
+      "permissionDenial": "pass",
+      "synthesisAdapterMock": "pass",
+      "reducedMotion": "pass",
+      "overflow": "none",
+      "axe": "not run",
+      "consoleErrors": []
+    },
+    {
+      "width": 1280,
+      "typedCommands": "pass",
+      "speechAdapterMock": "pass",
+      "permissionDenial": "pass",
+      "synthesisAdapterMock": "pass",
+      "reducedMotion": "pass",
+      "overflow": "none",
+      "axe": "not run",
+      "consoleErrors": []
+    },
+    {
+      "unsupportedRecognition": "typed fallback pass"
+    }
+  ]
+}

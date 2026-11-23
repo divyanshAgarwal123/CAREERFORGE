@@ -1,0 +1,30 @@
+{
+  "mode": "build",
+  "results": [
+    {
+      "width": 390,
+      "typedCommands": "pass",
+      "speechAdapterMock": "pass",
+      "permissionDenial": "pass",
+      "synthesisAdapterMock": "pass",
+      "reducedMotion": "pass",
+      "overflow": "none",
+      "axe": "zero WCAG A/AA violations",
+      "consoleErrors": []
+    },
+    {
+      "width": 1280,
+      "typedCommands": "pass",
+      "speechAdapterMock": "pass",
+      "permissionDenial": "pass",
+      "synthesisAdapterMock": "pass",
+      "reducedMotion": "pass",
+      "overflow": "none",
+      "axe": "zero WCAG A/AA violations",
+      "consoleErrors": []
+    },
+    {
+      "unsupportedRecognition": "typed fallback pass"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "issue": 2062,
+  "head": "2975b0a2c17c42a3d75d8e4841b3755727eaf97e",
+  "scope": "standalone tournament voice commands",
+  "notes": "Chromium applied typed commands to the actual existing bracket model. Speech recognition and synthesis were tested with simulated browser callbacks. A real microphone and browser speech service were not exercised.",
+  "files": {
+    "desktop.png": "1db7e2e8ba5cc8ecc25de2129952de3571f430474018563bed129cd38980ec44",
+    "development-results.json": "73fc49c2a5d7d32b4c7d8a2eaf7120f74bd17168ae5cabb7b0e5b9a2360105f4",
+    "mobile.png": "776ab0a68771ece8c32812f7c09a527b23162a486b4aacea4c7beb735fb206ce",
+    "node-tests.log": "703696cc6a576f9445af37c11addde36f6792e0ddb3af8a7c6d9ab7c703c4ec8",
+    "oxlint.json": "e35e149777a51a7e17e44743f49553c8a45a3f84478c044d22f4aee71384a717",
+    "production-build.log": "25c13540aa9ae3bbb3c29d0fd0b78baf3fbd8ccce44ff0df10ed8da416552fa2",
+    "production-results.json": "d76ba5e2370e7737e804727f49e9a80ddda80867987b6ea119d272ff378bb55f"
+  }
+}
