@@ -1,0 +1,46 @@
+TAP version 13
+# Subtest: starts at the first step and clamps navigation in either direction
+ok 1 - starts at the first step and clamps navigation in either direction
+  ---
+  duration_ms: 0.524
+  type: 'test'
+  ...
+# Subtest: puts the tooltip below and prevents left overflow
+ok 2 - puts the tooltip below and prevents left overflow
+  ---
+  duration_ms: 0.527625
+  type: 'test'
+  ...
+# Subtest: flips above a low target and prevents right overflow
+ok 3 - flips above a low target and prevents right overflow
+  ---
+  duration_ms: 0.077583
+  type: 'test'
+  ...
+# Subtest: keeps a tall tooltip inside the viewport when neither side fits
+ok 4 - keeps a tall tooltip inside the viewport when neither side fits
+  ---
+  duration_ms: 0.680292
+  type: 'test'
+  ...
+# Subtest: remembers completion across instances only after finishing
+ok 5 - remembers completion across instances only after finishing
+  ---
+  duration_ms: 0.210708
+  type: 'test'
+  ...
+# Subtest: continues when browser storage is blocked
+ok 6 - continues when browser storage is blocked
+  ---
+  duration_ms: 0.125
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 70.512083

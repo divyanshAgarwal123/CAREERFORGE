@@ -1,0 +1,42 @@
+[
+  {
+    "mode": "dev",
+    "width": 390,
+    "desktop": false,
+    "steps": 3,
+    "escaped": true,
+    "focusRestored": true,
+    "persisted": true,
+    "axeViolations": 0
+  },
+  {
+    "mode": "dev",
+    "width": 1280,
+    "desktop": true,
+    "steps": 3,
+    "escaped": true,
+    "focusRestored": true,
+    "persisted": true,
+    "axeViolations": 0
+  },
+  {
+    "mode": "build",
+    "width": 390,
+    "desktop": false,
+    "steps": 3,
+    "escaped": true,
+    "focusRestored": true,
+    "persisted": true,
+    "axeViolations": 0
+  },
+  {
+    "mode": "build",
+    "width": 1280,
+    "desktop": true,
+    "steps": 3,
+    "escaped": true,
+    "focusRestored": true,
+    "persisted": true,
+    "axeViolations": 0
+  }
+]
