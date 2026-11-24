@@ -1,0 +1,28 @@
+{
+  "sourceRepository": "divyanshAgarwal123/CAREERFORGE",
+  "sourceCommit": "57462cb08a5852c4559a4f06c6318e19b0037b54",
+  "sourceParents": [
+    "a70ac39ec18c190d5a3682121e5605ed45d6b9ae"
+  ],
+  "sourceBlobs": {
+    "public/showcase/smart-iot-nexus/lru-cache.css": "3604fb028af5516460cee52e5af8a03fcbdfa99a",
+    "public/showcase/smart-iot-nexus/lru-cache.html": "6e9dd4ad26fc3a65dd0fb53339a192cd0efa7b7a",
+    "public/showcase/smart-iot-nexus/lru-cache.js": "f06f3777342e3539a47d81764fa3b58323307d66",
+    "public/showcase/smart-iot-nexus/lru-cache.test.mjs": "204c359a7957a07ebb70059f844a859e464964cc"
+  },
+  "artifacts": {
+    "report.json": "fd4f36b42e5b0c1daa300a0a3c64297c15ce848bf2ce297b56151799e38e04fd",
+    "vite-1280-reduce.png": "11f3648bf7bbbe7ce18121d2b31383d8f5c2e8290d9fd5f0c8753ef1c12617dd",
+    "vite-390-reduce.png": "b0b8db77109385ca4fb117c35788b1e3f6acccc60c2cba017cab5874c526bd2e",
+    "production-1280-reduce.png": "11f3648bf7bbbe7ce18121d2b31383d8f5c2e8290d9fd5f0c8753ef1c12617dd",
+    "production-390-reduce.png": "b0b8db77109385ca4fb117c35788b1e3f6acccc60c2cba017cab5874c526bd2e"
+  },
+  "validation": {
+    "nodeTests": 11,
+    "referenceOperations": 500,
+    "browserCases": 8,
+    "canonicalBuild": "PASS",
+    "automatedAxe": "NOT_RUN",
+    "productionScope": "Canonical npm run build passed; production checks serve generated dist. Sparse checkout includes full src and assigned Smart IoT Nexus public subtree."
+  }
+}
