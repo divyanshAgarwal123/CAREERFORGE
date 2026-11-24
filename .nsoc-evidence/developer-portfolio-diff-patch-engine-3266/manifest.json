@@ -1,0 +1,23 @@
+{
+  "sourceCommit": "7adc9a2545e2d4575238bb7bf950462572e3ceac",
+  "sourceParents": [
+    "1e5bd1c5b841ca218f44929b10e56880e2059200"
+  ],
+  "sourceBlobs": {
+    "public/showcase/developer-portfolio/diff-patch-engine.css": "bd52b343efc47b50e37a4a791a083a881e306000",
+    "public/showcase/developer-portfolio/diff-patch-engine.html": "10725491bc821ac3b009bc4c1d990f0f8cb36a66",
+    "public/showcase/developer-portfolio/diff-patch-engine.js": "dd126d54ab8b6893fa329549f12700dc18093984",
+    "public/showcase/developer-portfolio/diff-patch-engine.test.mjs": "b6479a5d7b4fd80383bf901714f562759a045477"
+  },
+  "artifactSha256": {
+    ".nsoc-evidence/developer-portfolio-diff-patch-engine-3266/report.json": "86c99943f8c85aba38713eafff7ea6e53f2d140c70b5a157df12bffbc5efb8d9",
+    ".nsoc-evidence/developer-portfolio-diff-patch-engine-3266/production-1280-no-preference.png": "0c8caab1ba067b562f4ef41be6f81ecda4a63ee60e92be561f3cb49ed8e22b78",
+    ".nsoc-evidence/developer-portfolio-diff-patch-engine-3266/production-390-no-preference.png": "c2a2adf4e4c18b348897dd3b2df59429e1a89e73d02c22ec5c6bd1740a157477",
+    ".nsoc-evidence/developer-portfolio-diff-patch-engine-3266/vite-1280-no-preference.png": "0c8caab1ba067b562f4ef41be6f81ecda4a63ee60e92be561f3cb49ed8e22b78",
+    ".nsoc-evidence/developer-portfolio-diff-patch-engine-3266/vite-390-no-preference.png": "c2a2adf4e4c18b348897dd3b2df59429e1a89e73d02c22ec5c6bd1740a157477"
+  },
+  "validation": "11 Node tests pass, including961 exhaustive binary-sequence pairs checked against an independent edit-distance oracle, roundtrip patch integrity, CRLF/missing-final-newline fidelity, malformed input and200-edit work boundary. Eight actual Chrome Vite/generated-dist cases, canonical TypeScript/Vite build, scoped Oxlint and changed-commit gitleaks pass.",
+  "limitations": [
+    "Automated axe not run. Local browser acceptance is not a claim all hosted checks passed."
+  ]
+}
