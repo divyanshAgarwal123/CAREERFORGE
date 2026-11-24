@@ -1,0 +1,69 @@
+{
+  "sourceRepository": "Pratyush-Panda-2006/CAREERFORGE",
+  "issue": "https://github.com/Pratyush-Panda-2006/CAREERFORGE/issues/3298",
+  "sourceCommit": "cd798fbc793c171e8ded490d52bf1a3a105f018e",
+  "sourceBase": "e22a760cdafac2ea3895ad92dbcf652041a6c8f3",
+  "sourceParents": [
+    "3a34694830c48e744316a1437c2b9afc4e99d857",
+    "e22a760cdafac2ea3895ad92dbcf652041a6c8f3"
+  ],
+  "sourceFiles": [
+    {
+      "path": "public/showcase/fintech-vault/trie-search.css",
+      "gitBlob": "486de4a53819dc9ae1c87102d4e9636b36107c62"
+    },
+    {
+      "path": "public/showcase/fintech-vault/trie-search.html",
+      "gitBlob": "da1e8c5df78e25518f71c7fd2ac62d17c28df180"
+    },
+    {
+      "path": "public/showcase/fintech-vault/trie-search.js",
+      "gitBlob": "53a7f98204b43e2309d762ea66b0dfe2498879c0"
+    },
+    {
+      "path": "public/showcase/fintech-vault/trie-search.test.mjs",
+      "gitBlob": "7c5418664315bef76d97559aa80c70f61e175a07"
+    }
+  ],
+  "validation": {
+    "unitCommand": "node --test public/showcase/fintech-vault/trie-search.test.mjs",
+    "runtime": "Node22.23.5",
+    "unitPassed": 13,
+    "unitFailed": 0,
+    "scopedOxlint": "0warnings",
+    "browserCases": 8,
+    "browserModes": [
+      "canonical Vite dev",
+      "identical static production feature assets"
+    ],
+    "screenshotsReviewed": true,
+    "scope": "Only four dedicated files in assigned fintech-vault directory; shared/core files unchanged."
+  },
+  "limits": [
+    "Full core-app production build not run locally from the sparse checkout; upstream CI remains authoritative.",
+    "Automated axe not installed in the QA cache; no zero-axe claim. Native keyboard, focus and reduced-motion behavior were exercised.",
+    "A local sample lexicon, not account data, a market feed, transactions or financial advice."
+  ],
+  "artifacts": [
+    {
+      "path": "static-production-390-reduce.png",
+      "sha256": "ddb5c0cbcbbf888992359a7e084a8987cf055e5d9fb74deedd6ed81dc3e9b7f8"
+    },
+    {
+      "path": "vite-1280-no-preference.png",
+      "sha256": "f6d1c345c7baea104e4b16a28e0e1e34311bb9e3aba6b7d71fcd6b96a1a2af66"
+    },
+    {
+      "path": "static-production-1280-reduce.png",
+      "sha256": "f6d1c345c7baea104e4b16a28e0e1e34311bb9e3aba6b7d71fcd6b96a1a2af66"
+    },
+    {
+      "path": "vite-390-no-preference.png",
+      "sha256": "ddb5c0cbcbbf888992359a7e084a8987cf055e5d9fb74deedd6ed81dc3e9b7f8"
+    },
+    {
+      "path": "browser-report.json",
+      "sha256": "c8a30f7e0d32e01bc674f7065ff0027ccc4713135531299af9514447a281ee76"
+    }
+  ]
+}
