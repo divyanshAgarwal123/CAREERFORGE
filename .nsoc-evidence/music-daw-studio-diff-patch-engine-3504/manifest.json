@@ -1,0 +1,23 @@
+{
+  "sourceCommit": "4821c3025e938a4356a0e5839c1dde983d112c44",
+  "sourceParents": [
+    "aca4d525de70aba44586a4fe0f281312736ca17f"
+  ],
+  "sourceBlobs": {
+    "public/showcase/music-daw-studio/diff-patch-engine.css": "c717b67130c6b63f7372c05d0251fc4d9d62e81b",
+    "public/showcase/music-daw-studio/diff-patch-engine.html": "71b1bbaaf179bd369d62f5baae4a3334de767910",
+    "public/showcase/music-daw-studio/diff-patch-engine.js": "d47382af72073cc12c826fe61b040fe51c6abfae",
+    "public/showcase/music-daw-studio/diff-patch-engine.test.mjs": "c649b59739f6dd03c376aa4e5d30efcb0a202614"
+  },
+  "artifactSha256": {
+    ".nsoc-evidence/music-daw-studio-diff-patch-engine-3504/report.json": "558821fd854a9b7b0844d4e7c185e8ed53194e8c9191030318822174c12fc614",
+    ".nsoc-evidence/music-daw-studio-diff-patch-engine-3504/production-1280-no-preference.png": "018349ebeb844aabfa2896a0c368278e077cb514e5f665170e9a4156c83cb76e",
+    ".nsoc-evidence/music-daw-studio-diff-patch-engine-3504/production-390-no-preference.png": "d90d061359240d1164da810621f25e2f11af33d2c4b5f19c76aca4b6f9bfea32",
+    ".nsoc-evidence/music-daw-studio-diff-patch-engine-3504/vite-1280-no-preference.png": "018349ebeb844aabfa2896a0c368278e077cb514e5f665170e9a4156c83cb76e",
+    ".nsoc-evidence/music-daw-studio-diff-patch-engine-3504/vite-390-no-preference.png": "d90d061359240d1164da810621f25e2f11af33d2c4b5f19c76aca4b6f9bfea32"
+  },
+  "validation": "11 Node tests pass including961 binary-line sequence pairs checked against an independent edit-distance oracle, patch roundtrips, CRLF/final-newline fidelity, malformed input and200-edit work bound. Eight actual Chrome Vite/generated-dist cases, canonical TypeScript/Vite build, scoped Oxlint and changed-commit gitleaks pass.",
+  "limitations": [
+    "Automated axe not run. Local browser acceptance is not a claim all hosted checks passed."
+  ]
+}
