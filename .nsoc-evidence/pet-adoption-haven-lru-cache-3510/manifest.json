@@ -1,0 +1,23 @@
+{
+  "sourceCommit": "b35a69a9e28adbec73713c8a59def7c98b26ce1c",
+  "sourceParents": [
+    "6f6337e3d18ef83bc1ba27a7d1580e83a374617d"
+  ],
+  "sourceBlobs": {
+    "public/showcase/pet-adoption-haven/lru-cache.css": "82f0ab0bae6731e86343074907632d6cfc3f2460",
+    "public/showcase/pet-adoption-haven/lru-cache.html": "0f8f57e4fa1950d79fc0ef3e04afc8ba2134b63b",
+    "public/showcase/pet-adoption-haven/lru-cache.js": "0bd7bbdd84b4701ced2eda90f11403da29110b3d",
+    "public/showcase/pet-adoption-haven/lru-cache.test.mjs": "5f5287ac2f6c3ce1a3e68b3a57ffd61b89e17b3c"
+  },
+  "artifactSha256": {
+    ".nsoc-evidence/pet-adoption-haven-lru-cache-3510/report.json": "da6547ee29b147dad23ff06d7cb362eefc400212d6e1f98628c2b125b16d96b4",
+    ".nsoc-evidence/pet-adoption-haven-lru-cache-3510/production-1280-no-preference.png": "8af5c99a5de7b5cd7a0fc33a5e93d9e4f99af4288e93682ace73f71be82ebde0",
+    ".nsoc-evidence/pet-adoption-haven-lru-cache-3510/production-390-no-preference.png": "7b98a2500e38ba27c0dfdb11e4b89f393d3ef7bf45dd69405edbecc93fca2f85",
+    ".nsoc-evidence/pet-adoption-haven-lru-cache-3510/vite-1280-no-preference.png": "8af5c99a5de7b5cd7a0fc33a5e93d9e4f99af4288e93682ace73f71be82ebde0",
+    ".nsoc-evidence/pet-adoption-haven-lru-cache-3510/vite-390-no-preference.png": "7b98a2500e38ba27c0dfdb11e4b89f393d3ef7bf45dd69405edbecc93fca2f85"
+  },
+  "validation": "11 Node tests pass, including independent500-operation reference model, stable-node recency, special keys, capacity bounds, resize and clear. Canonical TypeScript/Vite build, scoped Oxlint and changed-commit gitleaks pass. Eight real Chrome scenarios pass with no page/console errors.",
+  "limitations": [
+    "Automated axe not run. Local browser acceptance is not a claim all hosted checks passed."
+  ]
+}
