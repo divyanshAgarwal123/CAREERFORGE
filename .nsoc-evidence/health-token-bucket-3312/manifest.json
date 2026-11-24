@@ -1,0 +1,27 @@
+{
+  "sourceRepository": "divyanshAgarwal123/CAREERFORGE",
+  "sourceCommit": "29264f488a2daede943b3f30561307ebb13ff5a1",
+  "sourceParents": [
+    "a8c3eb87f0e81d538fe81726e92de05aa0b60be4"
+  ],
+  "sourceBlobs": {
+    "public/showcase/health-vitality/rate-limiter.css": "ca58c812c763308f4b483bfda961efcd0920e6b9",
+    "public/showcase/health-vitality/rate-limiter.html": "462db6209333bdb621cc261d9c162123819b1a2a",
+    "public/showcase/health-vitality/rate-limiter.js": "b167e5a06422d2c72db9037835a638d45e4a3107",
+    "public/showcase/health-vitality/rate-limiter.test.mjs": "7b33e79893f8f4f6cef65dec95b0d3c845f32490"
+  },
+  "artifacts": {
+    "report.json": "6a7024ddb3fdfe20403cab23b2020b4295d01fe932893b45d195a3e5d59cc3f6",
+    "vite-1280-reduce.png": "e7f06e1e7bfb75ecf1a1d6b1b6a9313e5fadd1ff0811cb7e6a7ea83d90145be3",
+    "vite-390-reduce.png": "4d25909a0e4e895d2b1e7d6b301adcd944a34ab72ad8cf1178f7e9a0ea9e0089",
+    "static-production-1280-reduce.png": "e7f06e1e7bfb75ecf1a1d6b1b6a9313e5fadd1ff0811cb7e6a7ea83d90145be3",
+    "static-production-390-reduce.png": "4d25909a0e4e895d2b1e7d6b301adcd944a34ab72ad8cf1178f7e9a0ea9e0089"
+  },
+  "validation": {
+    "nodeTests": 14,
+    "browserCases": 8,
+    "canonicalBuild": "PASS",
+    "automatedAxe": "NOT_RUN",
+    "productionScope": "Canonical npm run build passed; production scenarios serve the generated dist directory. Sparse checkout includes src and the assigned Health Vitality public subtree."
+  }
+}
