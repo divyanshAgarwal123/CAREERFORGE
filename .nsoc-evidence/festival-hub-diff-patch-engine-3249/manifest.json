@@ -1,0 +1,23 @@
+{
+  "sourceCommit": "fea18ab4ea5e227cfa4d0702e87f8b3e25327203",
+  "sourceParents": [
+    "aca4d525de70aba44586a4fe0f281312736ca17f"
+  ],
+  "sourceBlobs": {
+    "public/showcase/festival-hub/diff-patch-engine.css": "c717b67130c6b63f7372c05d0251fc4d9d62e81b",
+    "public/showcase/festival-hub/diff-patch-engine.html": "d0df68d1225c6743de16c09db5e77408b6f012d3",
+    "public/showcase/festival-hub/diff-patch-engine.js": "49e6facddf5ac9ecf707c514bd556d8465dc789c",
+    "public/showcase/festival-hub/diff-patch-engine.test.mjs": "68223753e4493c1587d27d8aac9b9a99e6a21c9e"
+  },
+  "artifactSha256": {
+    ".nsoc-evidence/festival-hub-diff-patch-engine-3249/report.json": "b100782a5416d72412c7a0ca8c0232e7819f6409c64fe35fe89b6bd2743252ad",
+    ".nsoc-evidence/festival-hub-diff-patch-engine-3249/production-1280-no-preference.png": "e476d3dc66715f0a29a5e52a30c4b85c0a0c55c57cb1b0ddf2e92adc70b9df57",
+    ".nsoc-evidence/festival-hub-diff-patch-engine-3249/production-390-no-preference.png": "8d25d83ce3c18e8642ebe483c6186e0d1a95c36c1d08dc5632b0324af37ebed8",
+    ".nsoc-evidence/festival-hub-diff-patch-engine-3249/vite-1280-no-preference.png": "e476d3dc66715f0a29a5e52a30c4b85c0a0c55c57cb1b0ddf2e92adc70b9df57",
+    ".nsoc-evidence/festival-hub-diff-patch-engine-3249/vite-390-no-preference.png": "8d25d83ce3c18e8642ebe483c6186e0d1a95c36c1d08dc5632b0324af37ebed8"
+  },
+  "validation": "11 Node tests pass including961 exhaustive binary-line sequence pairs checked against an independent minimum-edit oracle, roundtrip patch integrity, malformed patch rejection, CRLF/final-newline fidelity and200-edit boundary. Eight real Chrome Vite/generated-dist cases and canonical build, scoped Oxlint, changed-commit gitleaks pass.",
+  "limitations": [
+    "Automated axe not run. Local browser acceptance is not a claim all hosted checks passed."
+  ]
+}
