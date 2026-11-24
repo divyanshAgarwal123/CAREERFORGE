@@ -1,0 +1,23 @@
+{
+  "sourceCommit": "50db13c116892b08b8538e880f2ffc5723a17124",
+  "sourceParents": [
+    "aca4d525de70aba44586a4fe0f281312736ca17f"
+  ],
+  "sourceBlobs": {
+    "public/showcase/agency-studio/trie-search.css": "486de4a53819dc9ae1c87102d4e9636b36107c62",
+    "public/showcase/agency-studio/trie-search.html": "ac0939e158fdb46628f25f49b27a7b92c97cdbf5",
+    "public/showcase/agency-studio/trie-search.js": "20f9564345096f98e947b39e0513134538e37ea4",
+    "public/showcase/agency-studio/trie-search.test.mjs": "ebcc3cb15dc747ae987f188d950f410305c7e49d"
+  },
+  "artifactSha256": {
+    ".nsoc-evidence/agency-studio-trie-search-3241/report.json": "7ceb810e6e9631e640cf8094dc4843e22ee79c1733dbc4de519d340d25e90f27",
+    ".nsoc-evidence/agency-studio-trie-search-3241/production-1280-no-preference.png": "94d760ac599b06c26c0b182c3187b76f4057a1c52e49409f28bbf2780132b338",
+    ".nsoc-evidence/agency-studio-trie-search-3241/production-390-no-preference.png": "faa6088caefb93f09fc47385d9d1dc220e6b6fd4a367bf359898d6daea09e895",
+    ".nsoc-evidence/agency-studio-trie-search-3241/vite-1280-no-preference.png": "94d760ac599b06c26c0b182c3187b76f4057a1c52e49409f28bbf2780132b338",
+    ".nsoc-evidence/agency-studio-trie-search-3241/vite-390-no-preference.png": "faa6088caefb93f09fc47385d9d1dc220e6b6fd4a367bf359898d6daea09e895"
+  },
+  "validation": "13 Node tests pass covering prefix traversal, empty prefixes, case-insensitive duplicates, Unicode/code-point edit distance, malformed input,1000-term cap and120-node tree bound. Eight actual Chrome Vite/generated-dist cases with native keyboard/pointer paths, canonical build, scoped Oxlint and changed-commit gitleaks pass.",
+  "limitations": [
+    "Automated axe not run. Local browser acceptance is not a claim all hosted checks passed."
+  ]
+}
