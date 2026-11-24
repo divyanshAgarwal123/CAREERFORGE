@@ -1,0 +1,23 @@
+{
+  "sourceCommit": "da3f8238c566d22eb2af5affe53def9d7a2bf852",
+  "sourceParents": [
+    "1e5bd1c5b841ca218f44929b10e56880e2059200"
+  ],
+  "sourceBlobs": {
+    "public/showcase/real-estate-luxe/diff-patch-engine.css": "c717b67130c6b63f7372c05d0251fc4d9d62e81b",
+    "public/showcase/real-estate-luxe/diff-patch-engine.html": "40d2504c53d2c17c2ad1df87b3018bd683d0028e",
+    "public/showcase/real-estate-luxe/diff-patch-engine.js": "699edec09cffedd9fa6164960207550f91ab64d5",
+    "public/showcase/real-estate-luxe/diff-patch-engine.test.mjs": "9dd4fd2f4e2c71ed589fb5e7f99eb45bbe2a3dae"
+  },
+  "artifactSha256": {
+    ".nsoc-evidence/real-estate-luxe-diff-patch-engine-3289/report.json": "9d8e601aa93facaa3984345f15f08037523a80ea4ebd884a8d7af854a9fdeceb",
+    ".nsoc-evidence/real-estate-luxe-diff-patch-engine-3289/production-1280-no-preference.png": "6772c337d70916690bc742d016fd8d0284e436ffb8252f65a805e83d306ba666",
+    ".nsoc-evidence/real-estate-luxe-diff-patch-engine-3289/production-390-no-preference.png": "ca0862b48d61d2d7dd3aebf8ae70b7c47fef12c83c24c7160784de1ab8bc0fb8",
+    ".nsoc-evidence/real-estate-luxe-diff-patch-engine-3289/vite-1280-no-preference.png": "6772c337d70916690bc742d016fd8d0284e436ffb8252f65a805e83d306ba666",
+    ".nsoc-evidence/real-estate-luxe-diff-patch-engine-3289/vite-390-no-preference.png": "ca0862b48d61d2d7dd3aebf8ae70b7c47fef12c83c24c7160784de1ab8bc0fb8"
+  },
+  "validation": "11 Node tests pass, including961 binary-sequence pairs checked against an independent minimum-edit oracle, roundtrip patches, CRLF/final-newline fidelity, malformed patches and200-edit boundary. Eight actual Chrome Vite/generated-dist scenarios, canonical TypeScript/Vite build, scoped Oxlint and changed-commit gitleaks pass.",
+  "limitations": [
+    "Automated axe not run. Local browser acceptance is not a claim all hosted checks passed."
+  ]
+}
