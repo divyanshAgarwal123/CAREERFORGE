@@ -1,0 +1,23 @@
+{
+  "sourceCommit": "a9a64e4e26d8dad162bf25898ef532e0111ac010",
+  "sourceParents": [
+    "26f72a72bf22567ca5a1914886a7279f3df855fa"
+  ],
+  "sourceBlobs": {
+    "public/showcase/supply-chain-logistics/lru-cache.css": "82f0ab0bae6731e86343074907632d6cfc3f2460",
+    "public/showcase/supply-chain-logistics/lru-cache.html": "e88a0ff0dcbf7051866638405199e1ccba460b56",
+    "public/showcase/supply-chain-logistics/lru-cache.js": "d85eee2dd5022c9892685d8a3489f8ce4e3209f8",
+    "public/showcase/supply-chain-logistics/lru-cache.test.mjs": "513070f61029ba64ec5030c9afec9bf9b425e985"
+  },
+  "artifactSha256": {
+    ".nsoc-evidence/supply-chain-logistics-lru-cache-3448/report.json": "8aa14caa79f08014af22faf76ae39bfdec0c86f3722d381e65f7b0fa925b2350",
+    ".nsoc-evidence/supply-chain-logistics-lru-cache-3448/production-1280-no-preference.png": "e794115ed8d006949197ab1daec59c7597393554aa16d0290544927dbab5378b",
+    ".nsoc-evidence/supply-chain-logistics-lru-cache-3448/production-390-no-preference.png": "799a3ee47c44feb73b2adf831de6a00cb0360aa6fd67369e32c739adcc8f962e",
+    ".nsoc-evidence/supply-chain-logistics-lru-cache-3448/vite-1280-no-preference.png": "e794115ed8d006949197ab1daec59c7597393554aa16d0290544927dbab5378b",
+    ".nsoc-evidence/supply-chain-logistics-lru-cache-3448/vite-390-no-preference.png": "799a3ee47c44feb73b2adf831de6a00cb0360aa6fd67369e32c739adcc8f962e"
+  },
+  "validation": "11 Node tests pass including500-operation independent reference model, node identity, exact recency and eviction order, special keys, resize, clear and bounded history. Eight actual Chrome Vite/generated-dist cases1280/390px and reduced-motion variants, canonical build, scoped Oxlint and changed-commit gitleaks pass.",
+  "limitations": [
+    "Automated axe not run. Local browser acceptance is not a claim all hosted checks passed."
+  ]
+}
