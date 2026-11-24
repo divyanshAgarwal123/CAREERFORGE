@@ -1,0 +1,23 @@
+{
+  "sourceCommit": "d79f27f504a1c65d33378742bf038f6bbc38a56f",
+  "sourceParents": [
+    "1069011967ffcb630610113178f6237c234ed5de"
+  ],
+  "sourceBlobs": {
+    "public/showcase/cybersecurity-sentinel/trie-search.css": "f2a759e0d52b977bfe223ec2f4bab65f67413f3c",
+    "public/showcase/cybersecurity-sentinel/trie-search.html": "f1f8368aed1f18e96146d0654448310ebabf75a8",
+    "public/showcase/cybersecurity-sentinel/trie-search.js": "5063001e2071c9b5ae26299a0f0b1c31cb6dc6ee",
+    "public/showcase/cybersecurity-sentinel/trie-search.test.mjs": "b2f69e5a3cae0a6f399fcc1f7f4978089d0509bc"
+  },
+  "artifactSha256": {
+    ".nsoc-evidence/cybersecurity-sentinel-trie-search-3369/report.json": "871b69480e480e810bde2fa523458a35ab17a8c2e089507e192f9535962b1514",
+    ".nsoc-evidence/cybersecurity-sentinel-trie-search-3369/production-1280-no-preference.png": "4280ce58ed7b770c09cada40e357166bd505142037b16c05a0aee982c170abbf",
+    ".nsoc-evidence/cybersecurity-sentinel-trie-search-3369/production-390-no-preference.png": "4c7e968c3966f0b784a24c456e9ab62cec680d38df6e9bb7a4cecf9c99d633a7",
+    ".nsoc-evidence/cybersecurity-sentinel-trie-search-3369/vite-1280-no-preference.png": "4280ce58ed7b770c09cada40e357166bd505142037b16c05a0aee982c170abbf",
+    ".nsoc-evidence/cybersecurity-sentinel-trie-search-3369/vite-390-no-preference.png": "4c7e968c3966f0b784a24c456e9ab62cec680d38df6e9bb7a4cecf9c99d633a7"
+  },
+  "validation": "13 Node tests, canonical TypeScript/Vite build, scoped oxlint and gitleaks passed. Eight Chrome scenarios covered dev/generated production, desktop/mobile, normal/reduced motion, native combobox/tree keyboard, typo distance, duplicates, validation recovery, safe literal text and reload.",
+  "limitations": [
+    "Automated axe not run. Local browser acceptance is not a claim all hosted checks passed."
+  ]
+}
