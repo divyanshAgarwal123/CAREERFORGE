@@ -1,0 +1,23 @@
+{
+  "sourceCommit": "ac7f71bd0313e7e820a6ee45acf40340939bb3d3",
+  "sourceParents": [
+    "430f2ec0b93e98bbbb06c9d5deede941dc5c0eee"
+  ],
+  "sourceBlobs": {
+    "public/showcase/automotive-hypercar/trie-search.css": "f2a759e0d52b977bfe223ec2f4bab65f67413f3c",
+    "public/showcase/automotive-hypercar/trie-search.html": "8d61bf996c2005a6a2ee95278e10e72004a19ba5",
+    "public/showcase/automotive-hypercar/trie-search.js": "d1e71bdc867b239c4c9308c0448afd3111b34562",
+    "public/showcase/automotive-hypercar/trie-search.test.mjs": "10ebb3f0af3cb0c00d2c940465257a14a7c03f4c"
+  },
+  "artifactSha256": {
+    ".nsoc-evidence/automotive-hypercar-trie-search-3354/report.json": "871b69480e480e810bde2fa523458a35ab17a8c2e089507e192f9535962b1514",
+    ".nsoc-evidence/automotive-hypercar-trie-search-3354/production-1280-no-preference.png": "218967b304a4606a23954320c888c9f9835bb165b51cfa0073bd3a57045220ba",
+    ".nsoc-evidence/automotive-hypercar-trie-search-3354/production-390-no-preference.png": "b9a88dd7d32a31a76938ad07d47f63ffb3a676f9a195de5c2f9f30df750f7e22",
+    ".nsoc-evidence/automotive-hypercar-trie-search-3354/vite-1280-no-preference.png": "218967b304a4606a23954320c888c9f9835bb165b51cfa0073bd3a57045220ba",
+    ".nsoc-evidence/automotive-hypercar-trie-search-3354/vite-390-no-preference.png": "b9a88dd7d32a31a76938ad07d47f63ffb3a676f9a195de5c2f9f30df750f7e22"
+  },
+  "validation": "13 Node tests, canonical TypeScript/Vite build, scoped oxlint and gitleaks passed. Eight Chrome cases cover development/generated production, desktop/mobile, normal/reduced motion, native combobox/tree keyboard, typo distance, duplicates, invalid-input recovery, safe literal text and reload.",
+  "limitations": [
+    "Automated axe not run. Local browser acceptance is not a claim all hosted checks passed."
+  ]
+}
