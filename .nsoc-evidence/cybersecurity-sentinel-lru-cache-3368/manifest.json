@@ -1,0 +1,23 @@
+{
+  "sourceCommit": "42d24b223a7d561bdac009ef6ceca0c76b31a0cb",
+  "sourceParents": [
+    "1069011967ffcb630610113178f6237c234ed5de"
+  ],
+  "sourceBlobs": {
+    "public/showcase/cybersecurity-sentinel/lru-cache.css": "82f0ab0bae6731e86343074907632d6cfc3f2460",
+    "public/showcase/cybersecurity-sentinel/lru-cache.html": "d02ec453d74dd0b3c39f82b9046022d46a7982e1",
+    "public/showcase/cybersecurity-sentinel/lru-cache.js": "b3d5a4ac78b90b27bb6e4b7077930f52c282e022",
+    "public/showcase/cybersecurity-sentinel/lru-cache.test.mjs": "9b8933b3492344b7878852cec3bd14a76f010df0"
+  },
+  "artifactSha256": {
+    ".nsoc-evidence/cybersecurity-sentinel-lru-cache-3368/report.json": "b72e2208fdf240c179364887bfe1ddfe6acb45d52f3daca677b69369535e108c",
+    ".nsoc-evidence/cybersecurity-sentinel-lru-cache-3368/production-1280-no-preference.png": "978cb0a46512f59b601f4c5c5dbe5cab25e343e9179448b3ba9d3d86ec43159b",
+    ".nsoc-evidence/cybersecurity-sentinel-lru-cache-3368/production-390-no-preference.png": "02256b13e78329dfb2e463926831645d7c2dda1d0b71c779f65643c9beeac476",
+    ".nsoc-evidence/cybersecurity-sentinel-lru-cache-3368/vite-1280-no-preference.png": "978cb0a46512f59b601f4c5c5dbe5cab25e343e9179448b3ba9d3d86ec43159b",
+    ".nsoc-evidence/cybersecurity-sentinel-lru-cache-3368/vite-390-no-preference.png": "02256b13e78329dfb2e463926831645d7c2dda1d0b71c779f65643c9beeac476"
+  },
+  "validation": "11 Node tests, canonical TypeScript/Vite build, scoped oxlint and gitleaks passed. Eight Chrome scenarios covered dev/generated production, desktop/mobile, normal/reduced motion, native keyboard, LRU ordering, resize eviction, safe literal text, validation recovery, clear and reload.",
+  "limitations": [
+    "Automated axe not run. Local browser acceptance is not a claim all hosted checks passed."
+  ]
+}
