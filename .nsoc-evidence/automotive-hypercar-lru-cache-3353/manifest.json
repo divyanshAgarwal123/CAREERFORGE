@@ -1,0 +1,23 @@
+{
+  "sourceCommit": "9453356bfc84523bf78845d48a95813a25fc5aed",
+  "sourceParents": [
+    "b881f68d57c5390d83b2472b40a37ecaa726ab5c"
+  ],
+  "sourceBlobs": {
+    "public/showcase/automotive-hypercar/lru-cache.css": "4a6150225bdc1695a5989394036986c9507f3678",
+    "public/showcase/automotive-hypercar/lru-cache.html": "71dd892df04afd75906a2789c705ccc5a56ee6b6",
+    "public/showcase/automotive-hypercar/lru-cache.js": "92bcafaf6a3dfacb13c063b8414af5f80060b598",
+    "public/showcase/automotive-hypercar/lru-cache.test.mjs": "84f7c11e2805b70429a066e90d7f258c5befa0df"
+  },
+  "artifactSha256": {
+    ".nsoc-evidence/automotive-hypercar-lru-cache-3353/report.json": "879af2b30773f82bfccd737544a9b4e77d13f1d34ce6bca7e97aad9827b6af13",
+    ".nsoc-evidence/automotive-hypercar-lru-cache-3353/production-1280-no-preference.png": "1aa6880c0b47fb99f6daaff82da7ec4a3d8607eac9f787bef1d7bb4cc78b725f",
+    ".nsoc-evidence/automotive-hypercar-lru-cache-3353/production-390-no-preference.png": "710a6a998d09158d3af3fff3cb01666d9995a32e8b90998aefc6bc6baffe8b0f",
+    ".nsoc-evidence/automotive-hypercar-lru-cache-3353/vite-1280-no-preference.png": "1aa6880c0b47fb99f6daaff82da7ec4a3d8607eac9f787bef1d7bb4cc78b725f",
+    ".nsoc-evidence/automotive-hypercar-lru-cache-3353/vite-390-no-preference.png": "710a6a998d09158d3af3fff3cb01666d9995a32e8b90998aefc6bc6baffe8b0f"
+  },
+  "validation": "11 Node tests, canonical TypeScript/Vite build, scoped oxlint and gitleaks passed. Eight Chrome cases cover development/generated production, desktop/mobile, normal/reduced motion, insert/read/update, eviction/resize, native keyboard, safe literal text, clear and reload. Final skip-link contrast fix rebuilt and all8browser cases passed again.",
+  "limitations": [
+    "Automated axe not run. Local browser acceptance is not a claim all hosted checks passed."
+  ]
+}
