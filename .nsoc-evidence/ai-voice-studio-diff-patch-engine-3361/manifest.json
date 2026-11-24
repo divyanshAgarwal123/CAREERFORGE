@@ -1,0 +1,23 @@
+{
+  "sourceCommit": "0b2e7095591bf0a36a6229ce554299858041eec7",
+  "sourceParents": [
+    "430f2ec0b93e98bbbb06c9d5deede941dc5c0eee"
+  ],
+  "sourceBlobs": {
+    "public/showcase/ai-voice-studio/diff-patch-engine.css": "c717b67130c6b63f7372c05d0251fc4d9d62e81b",
+    "public/showcase/ai-voice-studio/diff-patch-engine.html": "aeef58a5e558199bec2f3487519301ad841fbce6",
+    "public/showcase/ai-voice-studio/diff-patch-engine.js": "85e6ac4c80012dd0c0f81f98218a73733d943dac",
+    "public/showcase/ai-voice-studio/diff-patch-engine.test.mjs": "144ddbc98e0d43183325252a4e8386d5a890b2e2"
+  },
+  "artifactSha256": {
+    ".nsoc-evidence/ai-voice-studio-diff-patch-engine-3361/report.json": "617789554844c865143d6c215f941a98e1bfb09f5e9970f62d412f4a2e6a081a",
+    ".nsoc-evidence/ai-voice-studio-diff-patch-engine-3361/production-1280-no-preference.png": "fd5651a66827b60f915c86edece32290222309c1e5e47ef0072dc8c1a5886221",
+    ".nsoc-evidence/ai-voice-studio-diff-patch-engine-3361/production-390-no-preference.png": "1c999eec7897200ba6c16f5f4e88dc64747a8454355fda79ebeb1b90257f22ce",
+    ".nsoc-evidence/ai-voice-studio-diff-patch-engine-3361/vite-1280-no-preference.png": "fd5651a66827b60f915c86edece32290222309c1e5e47ef0072dc8c1a5886221",
+    ".nsoc-evidence/ai-voice-studio-diff-patch-engine-3361/vite-390-no-preference.png": "1c999eec7897200ba6c16f5f4e88dc64747a8454355fda79ebeb1b90257f22ce"
+  },
+  "validation": "11 Node tests including961oraclepairs, canonical TypeScript/Vite build, scoped oxlint and gitleaks passed. Eight Chrome cases cover development/generated production, desktop/mobile, normal/reduced motion, roundtrip/malformed/source mismatch/empty/CRLF handling, safe literal text, input bounds, native keyboard and reload.",
+  "limitations": [
+    "Automated axe not run. Local browser acceptance is not a claim all hosted checks passed."
+  ]
+}
