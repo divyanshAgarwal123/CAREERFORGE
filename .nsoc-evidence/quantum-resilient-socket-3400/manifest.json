@@ -1,0 +1,28 @@
+{
+  "sourceRepository": "divyanshAgarwal123/CAREERFORGE",
+  "sourceCommit": "6c47707c93c7cb73e22600d9da7f3a3b59602f13",
+  "sourceParents": [
+    "0b3376fbff9952a1010bc9f6b0894a22b0abb250"
+  ],
+  "sourceBlobs": {
+    "public/showcase/quantum-forge/websocket-reconnect.css": "07872c705f88be182c5fe082b55d4e0d7c7b06a3",
+    "public/showcase/quantum-forge/websocket-reconnect.html": "900ffb491a45064ff081ccbe56a172ff2ffc72c1",
+    "public/showcase/quantum-forge/websocket-reconnect.js": "e4ab6ac7b64639a2612ca7f2aaa5e1fae0807acb",
+    "public/showcase/quantum-forge/websocket-reconnect.test.mjs": "13cadd571126744ef4af429058f3c3be62d207af"
+  },
+  "artifacts": {
+    "report.json": "2cce7ba7d457fa32996635d89f98047321d23ce2a6dd3bc652043b24d9aaab8b",
+    "vite-1280-reduce.png": "de180dbe70c629f6081263148715c6dc4b2cd011dfdecbae9348060f88631a9a",
+    "vite-390-reduce.png": "c95c1656496765df8a3e3dd16bd8c0303e94a79e66b51988c6304825f198fb7c",
+    "production-1280-reduce.png": "ab487a535a0b3b88c31d7488cd1f3e71a4634bd5c9ba5c0e03d25138e1fdb405",
+    "production-390-reduce.png": "80598f553bac7f7b77c3d8043a7bef65fc403e2cb7128af4d91a71bd8e8b160c"
+  },
+  "validation": {
+    "nodeTests": 13,
+    "browserCases": 8,
+    "realLoopbackWebSocket": true,
+    "canonicalBuild": "PASS final head",
+    "automatedAxe": "NOT_RUN",
+    "productionScope": "Canonical npm run build passed; production checks serve generated dist. Sparse checkout includes full src and assigned Quantum Forge public subtree."
+  }
+}
