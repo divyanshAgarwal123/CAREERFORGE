@@ -1,0 +1,23 @@
+{
+  "sourceCommit": "1b6caa830b54e8b0c0426617174a7c10d4019e48",
+  "sourceParents": [
+    "6f6337e3d18ef83bc1ba27a7d1580e83a374617d"
+  ],
+  "sourceBlobs": {
+    "public/showcase/drone-delivery-skyway/trie-search.css": "f2a759e0d52b977bfe223ec2f4bab65f67413f3c",
+    "public/showcase/drone-delivery-skyway/trie-search.html": "0eb0e94935825987f9fe7b4d8ebd1187d2c73f82",
+    "public/showcase/drone-delivery-skyway/trie-search.js": "0b375c2b493e6fcbff00a6b8c9689231e5434a9c",
+    "public/showcase/drone-delivery-skyway/trie-search.test.mjs": "969ed7d905ccb6b4fe3b6e8b5ea6f3f87517d155"
+  },
+  "artifactSha256": {
+    ".nsoc-evidence/drone-delivery-skyway-trie-search-3498/report.json": "98aaddfc6926939d3c9bd33832169952d79849fdc46e13e1bdbc8c4fd83b2a06",
+    ".nsoc-evidence/drone-delivery-skyway-trie-search-3498/production-1280-no-preference.png": "7ddf2e17692f738cb37f3fc11599b7ba281c3710234b2e5617f6ffa7b5350413",
+    ".nsoc-evidence/drone-delivery-skyway-trie-search-3498/production-390-no-preference.png": "8a5dbf59f577c0d18a6d42f258571f5ffff73adae089ab61cb775c9d2119cafd",
+    ".nsoc-evidence/drone-delivery-skyway-trie-search-3498/vite-1280-no-preference.png": "7ddf2e17692f738cb37f3fc11599b7ba281c3710234b2e5617f6ffa7b5350413",
+    ".nsoc-evidence/drone-delivery-skyway-trie-search-3498/vite-390-no-preference.png": "8a5dbf59f577c0d18a6d42f258571f5ffff73adae089ab61cb775c9d2119cafd"
+  },
+  "validation": "13 Node tests pass covering prefix ordering, case-insensitive duplicates, Unicode normalization, edit-distance boundaries, malformed input,1000-term cap and120-node tree bound. Canonical TypeScript/Vite build, scoped Oxlint and changed-commit gitleaks pass. Eight actual Chrome development/production cases pass with native keyboard and pointer flows.",
+  "limitations": [
+    "Automated axe not run. Local browser acceptance is not a claim all hosted checks passed."
+  ]
+}
