@@ -1,0 +1,23 @@
+{
+  "sourceCommit": "dc72409e80af319272c434e3bbe8b2c7af7f3db7",
+  "sourceParents": [
+    "26f72a72bf22567ca5a1914886a7279f3df855fa"
+  ],
+  "sourceBlobs": {
+    "public/showcase/vr-metaverse-hub/diff-patch-engine.css": "bd52b343efc47b50e37a4a791a083a881e306000",
+    "public/showcase/vr-metaverse-hub/diff-patch-engine.html": "99961cce064ca1c221dfd342c037330a1d4ccc63",
+    "public/showcase/vr-metaverse-hub/diff-patch-engine.js": "7fb3178ae9c3564046ee7b9bff8d957a46560535",
+    "public/showcase/vr-metaverse-hub/diff-patch-engine.test.mjs": "c25c2f5e2370f7f4e1c22a9629f57c18b21ec794"
+  },
+  "artifactSha256": {
+    ".nsoc-evidence/vr-metaverse-hub-diff-patch-engine-3441/report.json": "d57927cfa59bb3f157cf8d8a9c32ad1a39883206bf9d90680346b9e81060334e",
+    ".nsoc-evidence/vr-metaverse-hub-diff-patch-engine-3441/production-1280-no-preference.png": "565d548f2b2adda51ae735ff9016fb61375fbbf08baa4337e502cf8c8afc2951",
+    ".nsoc-evidence/vr-metaverse-hub-diff-patch-engine-3441/production-390-no-preference.png": "8df5b3208afa5adaf3a76183e3c7e7d5f7d308e2ee234a662a134b45f454ed25",
+    ".nsoc-evidence/vr-metaverse-hub-diff-patch-engine-3441/vite-1280-no-preference.png": "565d548f2b2adda51ae735ff9016fb61375fbbf08baa4337e502cf8c8afc2951",
+    ".nsoc-evidence/vr-metaverse-hub-diff-patch-engine-3441/vite-390-no-preference.png": "8df5b3208afa5adaf3a76183e3c7e7d5f7d308e2ee234a662a134b45f454ed25"
+  },
+  "validation": "11 Node tests pass including961 binary-line pairs checked against an independent minimum-edit oracle, roundtrip patches, CRLF/final-newline fidelity and malformed/work-limit rejection. Eight actual Chrome Vite/generated-dist cases, canonical TypeScript/Vite build, scoped Oxlint and changed-commit gitleaks pass.",
+  "limitations": [
+    "Automated axe not run. Local browser acceptance is not a claim all hosted checks passed."
+  ]
+}
