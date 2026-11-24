@@ -1,0 +1,23 @@
+{
+  "sourceCommit": "4506ef59ce1385b481f2820141b707f01a1f786f",
+  "sourceParents": [
+    "b529db11fc19df998ac6657a854e58899d4dcc5f"
+  ],
+  "sourceBlobs": {
+    "public/showcase/saas-launchpad/trie-search.css": "486de4a53819dc9ae1c87102d4e9636b36107c62",
+    "public/showcase/saas-launchpad/trie-search.html": "af574faf15ea89f474e88909d74408cbfcfcf3bf",
+    "public/showcase/saas-launchpad/trie-search.js": "0d3124c168c74b864526b8a575d1c142b2691c39",
+    "public/showcase/saas-launchpad/trie-search.test.mjs": "7bf49dcdf75316ce9b1e626946ea32f7cd99f7c8"
+  },
+  "artifactSha256": {
+    ".nsoc-evidence/saas-launchpad-trie-search-3258/report.json": "84c4e1252466806a413366d5fed6a5053054d8e650f94b5ff885fa414960e16d",
+    ".nsoc-evidence/saas-launchpad-trie-search-3258/production-1280-no-preference.png": "bb75b27dd2f567cef648c3ea6d0b5a5302e5040ad74897fa51364a9e287df6c9",
+    ".nsoc-evidence/saas-launchpad-trie-search-3258/production-390-no-preference.png": "1f0c4abeadb2052fd7d5732b621d1f2b188753a0b759dac01ff2642a040a8ed9",
+    ".nsoc-evidence/saas-launchpad-trie-search-3258/vite-1280-no-preference.png": "bb75b27dd2f567cef648c3ea6d0b5a5302e5040ad74897fa51364a9e287df6c9",
+    ".nsoc-evidence/saas-launchpad-trie-search-3258/vite-390-no-preference.png": "1f0c4abeadb2052fd7d5732b621d1f2b188753a0b759dac01ff2642a040a8ed9"
+  },
+  "validation": "13 Node tests pass covering exact/empty prefix, case-insensitive duplicates, Unicode and Levenshtein boundaries,1000-term cap and120-node tree bound. Eight real Chrome Vite/generated-dist scenarios pass including native keyboard, pointer selection, invalid-input retry and safe literal rendering. Canonical TypeScript/Vite build, scoped Oxlint and changed-commit gitleaks pass.",
+  "limitations": [
+    "Automated axe not run. Local browser acceptance is not a claim all hosted checks passed."
+  ]
+}
