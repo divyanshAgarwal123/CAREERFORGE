@@ -1,0 +1,30 @@
+{
+  "sourceRepository": "divyanshAgarwal123/CAREERFORGE",
+  "sourceCommit": "4362f11aec71dcc48df9231a072752daf872687e",
+  "sourceParents": [
+    "15ce8f75c9d37cee71b58045a65843be4f548988",
+    "6e97b66bf428707b084121cb447ef547238db871"
+  ],
+  "sourceBlobs": {
+    "public/showcase/travel-odyssey/diff-patch-engine.css": "c717b67130c6b63f7372c05d0251fc4d9d62e81b",
+    "public/showcase/travel-odyssey/diff-patch-engine.html": "1c3c8c486db6d4fa6eff27f774099ec38ad45bd5",
+    "public/showcase/travel-odyssey/diff-patch-engine.js": "88275faa74e0e1db8a028184a901d80e7d3982fd",
+    "public/showcase/travel-odyssey/diff-patch-engine.test.mjs": "36a4aaf073d4e8254c32b4f1432dc4292562c2dd"
+  },
+  "artifacts": {
+    "report.json": "7dbbea15749df69838caa0de19503dd6b75b8c5add9fed777897b5b28ae74a28",
+    "vite-1280-reduce.png": "0ea70266d0f38dd07fec61a22fa298ecd21324e745758c776464bbd10b867a08",
+    "vite-390-reduce.png": "8a8d98421860a21b69334083aedce1b6ca859d7460f758567c9ebcc9e3ebc175",
+    "production-1280-reduce.png": "0ea70266d0f38dd07fec61a22fa298ecd21324e745758c776464bbd10b867a08",
+    "production-390-reduce.png": "8a8d98421860a21b69334083aedce1b6ca859d7460f758567c9ebcc9e3ebc175"
+  },
+  "validation": {
+    "nodeTests": 11,
+    "independentOraclePairs": 961,
+    "browserCases": 8,
+    "canonicalBuild": "PASS on final head",
+    "sourceBlobsIdenticalAfterBaseMerge": true,
+    "automatedAxe": "NOT_RUN",
+    "productionScope": "Canonical npm run build passed; production checks serve generated dist. Sparse checkout includes full src and assigned Travel Odyssey public subtree."
+  }
+}
